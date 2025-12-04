@@ -8,14 +8,6 @@ const timelineData = [
     "description": "\"My Scrooge is an Indian Tory who hates refugees.\" Bend It Like Beckham director."
   },
   {
-    "title": "Gurinder Chadha's A Christmas Carol",
-    "yearText": "TBA",
-    "yearSort": 3000,
-    "type": "Theatrical",
-    "category": "🖥️ Modern & Streaming Era (2010-Present)",
-    "description": "Director of Bend It Like Beckham. \"My Scrooge is an Indian Tory who hates refugees.\" Diverse reimagining."
-  },
-  {
     "title": "Marley",
     "yearText": "TBA",
     "yearSort": 3000,
@@ -40,52 +32,12 @@ const timelineData = [
     "description": "Director of The Witch, The Lighthouse. Dafoe may play Scrooge!"
   },
   {
-    "title": "Robert Eggers' A Christmas Carol",
-    "yearText": "TBA",
-    "yearSort": 3000,
-    "type": "Theatrical",
-    "category": "🖥️ Modern & Streaming Era (2010-Present)",
-    "description": "Director of The Witch, The Lighthouse, The Northman. Dafoe may play Scrooge. Currently in development."
-  },
-  {
     "title": "Ebenezer: A Christmas Carol",
     "yearText": "2026",
     "yearSort": 2026,
     "type": "Horror",
     "category": "🎬 Classic & Notable Films 33+",
     "description": "Directed by Ti West (X, Pearl). Horror reimagining in production."
-  },
-  {
-    "title": "Ebenezer: A Christmas Carol",
-    "yearText": "2026",
-    "yearSort": 2026,
-    "type": "Horror Film",
-    "category": "🔮 Upcoming & In Development 5+",
-    "description": "Horror reimagining from director of X, Pearl. \"Thrilling ghost story set in Dickens' London.\""
-  },
-  {
-    "title": "Ebenezer: A Christmas Carol",
-    "yearText": "2026",
-    "yearSort": 2026,
-    "type": "Horror Film",
-    "category": "👻 Drama, Horror & Dark Adaptations",
-    "description": "Directed by Ti West (X, Pearl). Described as \"a thrilling ghost story set in Dickens' London.\" Currently in production."
-  },
-  {
-    "title": "A Calico Christmas Carol (Knott's Berry Farm)",
-    "yearText": "2023-present",
-    "yearSort": 2025,
-    "type": "theme_park",
-    "category": "Lost / Rare / Obscure",
-    "description": "Stage Show; ONGOING - Unknown if Filmed; Adaptation brings Scrooge to Calico Ghost Town with Wild West twist. References to Boysenberry Pie, Ghost Town Grill, Calico Saloon. Rotates throughout day with 'Gift of the Magi, 1885.' Unknown if archived.; Set in Calico Ghost Town with Knott's spin. Part of Knott's Merry Farm celebration."
-  },
-  {
-    "title": "A Christmas Carol (First Presbyterian Church Hollywood)",
-    "yearText": "As early as 1940s, annually since 1969",
-    "yearSort": 2025,
-    "type": "church_religious",
-    "category": "Lost / Rare / Obscure",
-    "description": "Stage Production (Possibly Filmed); ONGOING - Any Archival Recordings Unknown; Done as far back as 1940s but didn't become annual until 1969. 55th anniversary production in 2024. Returns to Dickens' Gospel-saturated text with Broadway-experienced talent. Unknown if any productions were filmed.; Professional production with Broadway-experienced actors. Perfect for children, church groups, seniors. Unknown if archival recordings exist."
   },
   {
     "title": "A Christmas Carol - BBC Radio East Midlands",
@@ -112,14 +64,6 @@ const timelineData = [
     "description": "NPR; Radio Broadcast; Annual NPR tradition starting in 1990. Jonathan Winters voiced all characters reading from Dickens' original script; Cast: Jonathan Winters (All characters (solo performance))"
   },
   {
-    "title": "A Dickens Christmas Carol (Silver Dollar City)",
-    "yearText": "Annual (1990s-present)",
-    "yearSort": 2025,
-    "type": "theme_park",
-    "category": "Lost / Rare / Obscure",
-    "description": "Broadway-Style Stage Show; ONGOING - Possibly Filmed; Original musical adaptation with live band, special effects, Victorian scenery, period costuming. Runs during An Old Time Christmas (Nov 2-Dec 30). Unknown if theme park has archival recordings.; 60-minute Broadway-style show with humor and inspiration. Features talented cast with live band, astounding special effects."
-  },
-  {
     "title": "Christmas Karma",
     "yearText": "2025",
     "yearSort": 2025,
@@ -136,140 +80,12 @@ const timelineData = [
     "description": "First major Bollywood adaptation!"
   },
   {
-    "title": "Disney Cruise: Very Merrytime",
-    "yearText": "Annual",
-    "yearSort": 2025,
-    "type": "Cruise Ship",
-    "category": "🎢 Theme Parks & Attractions 10+",
-    "description": "Kids join Dickens carolers on stage! Mickey's Christmas Carol screenings throughout cruise."
-  },
-  {
-    "title": "Disney Hollywood Studios: Muppets Exhibit",
-    "yearText": "2025",
-    "yearSort": 2025,
-    "type": "Florida",
-    "category": "🎢 Theme Parks & Attractions 10+",
-    "description": "Costumes and props from Muppet Christmas Carol! Gonzo, Kermit, Robin/Tiny Tim."
-  },
-  {
-    "title": "Ford's Theatre Military Appreciation Night",
-    "yearText": "2022-present (Annual)",
-    "yearSort": 2025,
-    "type": "military_uso",
-    "category": "Lost / Rare / Obscure",
-    "description": "Stage Production; ONGOING - Unknown if Filmed; Third annual Military Appreciation Night performance in 2024. Ford's partnered with VetTix for 12 years making free tickets available to 24 productions. Special event for veterans and active military.; Created in 2022 with Lockheed Martin support. Shares arts appreciation with veterans and active military members."
-  },
-  {
-    "title": "Ford's Theatre Washington DC",
-    "yearText": "1979-present",
-    "yearSort": 2025,
-    "type": "45+ Years",
-    "category": "🎭 Stage Theater Productions 100+",
-    "description": "Dickens himself performed in Washington during his 1867-68 tour!"
-  },
-  {
-    "title": "Gerald Charles Dickens",
-    "yearText": "1993-present",
-    "yearSort": 2025,
-    "type": "Touring",
-    "category": "🎭 Stage Theater Productions 100+",
-    "description": "30+ year tradition! Based on Dickens' own 1860s public readings. Family connection to original author."
-  },
-  {
-    "title": "Goodman Theatre Chicago",
-    "yearText": "1978-present",
-    "yearSort": 2025,
-    "type": "47 Years",
-    "category": "🎭 Stage Theater Productions 100+",
-    "description": "Over 1.5 million theatergoers since 1978. One of the first U.S. theaters to mount it annually."
-  },
-  {
-    "title": "Guthrie Theater Minneapolis",
-    "yearText": "1975-present",
-    "yearSort": 2025,
-    "type": "50 Years!",
-    "category": "🎭 Stage Theater Productions 100+",
-    "description": "50th production in 2024! Cornerstone of every Guthrie season for half a century."
-  },
-  {
-    "title": "Jefferson Mays' A Christmas Carol",
-    "yearText": "2010s-present",
-    "yearSort": 2025,
-    "type": "Touring",
-    "category": "🎭 Stage Theater Productions 100+",
-    "description": "Tony winner portrays over 50 characters including female roles. Filmed during pandemic."
-  },
-  {
-    "title": "Knott's: A Calico Christmas Carol",
-    "yearText": "Annual",
-    "yearSort": 2025,
-    "type": "California",
-    "category": "🎢 Theme Parks & Attractions 10+",
-    "description": "Wild West twist on Dickens! Holiday melodrama at Knott's Merry Farm."
-  },
-  {
-    "title": "Manual Cinema's Christmas Carol",
-    "yearText": "2020-present",
-    "yearSort": 2025,
-    "type": "Shadow Puppetry",
-    "category": "🎭 Stage Theater Productions 100+",
-    "description": "Hundreds of handmade puppets, overhead projectors, live music. Created during COVID pandemic."
-  },
-  {
     "title": "NHL Holiday Videos",
     "yearText": "2013-present",
     "yearSort": 2025,
     "type": "NHL Teams",
     "category": "🏈 Sports & Wrestling 15+",
     "description": "St. Louis Blues, Buffalo Sabres, Boston Bruins create viral Christmas carol videos."
-  },
-  {
-    "title": "NPR: Jonathan Winters",
-    "yearText": "1990-present",
-    "yearSort": 2025,
-    "type": "NPR Annual",
-    "category": "📻 Radio & Audio Dramas",
-    "description": "Annual NPR tradition since 1990. Comedian Jonathan Winters' solo performance became holiday radio staple."
-  },
-  {
-    "title": "Nollaig: A Christmas Journey",
-    "yearText": "2025",
-    "yearSort": 2025,
-    "type": "Celtic / Irish / World Music",
-    "category": "Music / Albums / Scores",
-    "description": "Studio Album (13 tracks). 13-track Christmas album bringing together joyful Irish tradition with seasonal standards. 'Nollaig' is Irish word for 'Christmas' and December. New members Caitríona Sherlock (sean-nós singer), Ciara Ní Mhurcú (fiddle), joining sopranos Mairéad Carlin and Muirgen O'Mahony."
-  },
-  {
-    "title": "Silver Dollar City: A Dickens' Christmas Carol",
-    "yearText": "1994-present",
-    "yearSort": 2025,
-    "type": "Branson, MO",
-    "category": "🎢 Theme Parks & Attractions 10+",
-    "description": "60-minute Broadway-style show! \"Quite possibly the best hour ever spent at a show in any theme park.\""
-  },
-  {
-    "title": "The Gift of Christmas (Prestonwood Baptist Church)",
-    "yearText": "Annual",
-    "yearSort": 2025,
-    "type": "church_religious",
-    "category": "Lost / Rare / Obscure",
-    "description": "Multimedia Stage Production; ONGOING - May Be Filmed; Visually stunning multimedia event with nearly 1,000-member cast and choir, live orchestra, flying angels, special effects. Unknown if professionally filmed for distribution.; Prestonwood tradition attended by thousands yearly. Complete with special effects and massive production values."
-  },
-  {
-    "title": "The Old Vic London",
-    "yearText": "2017-present",
-    "yearSort": 2025,
-    "type": "West End",
-    "category": "🎭 Stage Theater Productions 100+",
-    "description": "Raised over £1.9 million for food poverty charities! 9th consecutive year in 2025."
-  },
-  {
-    "title": "A Christmas Carl",
-    "yearText": "Recent",
-    "yearSort": 2024,
-    "type": "LGBTQ+",
-    "category": "📖 Book Retellings 100+",
-    "description": "LGBTQ+ retelling featuring Quentin Crisp as a ghost!"
   },
   {
     "title": "A Christmas Carol (Independent Irish Adaptation)",
@@ -280,38 +96,6 @@ const timelineData = [
     "description": "Film; RELEASED - Limited Distribution; Described as 'darkest, most ghostly version ever made.' Stays true to original Dickens feel while turning up creepiness. Independent production with limited reach.; Independent Irish production emphasizing horror elements of original story.; Cast: Irish and English actors"
   },
   {
-    "title": "A Christmas Carol (Riverside Church)",
-    "yearText": "Recent Years",
-    "yearSort": 2024,
-    "type": "church_religious",
-    "category": "Lost / Rare / Obscure",
-    "description": "Stage Production; ONGOING - Possibly Filmed for Online; Available in person or online with contemporary music and drama. Unknown if archived.; Hosted six times over three days at Big Lake Campus and twice at Sauk Rapids Campus. Features contemporary music and drama."
-  },
-  {
-    "title": "A Christmas Carol (USO San Antonio/Classic Theatre)",
-    "yearText": "Recent",
-    "yearSort": 2024,
-    "type": "military_uso",
-    "category": "Lost / Rare / Obscure",
-    "description": "Live Event; ONE-TIME EVENT; Invited military families for magical evening featuring adaptation, holiday treats, hot cocoa, crafts, chance to meet real reindeer. Unknown if filmed.; USO event specifically for military families. Combined theatrical performance with holiday activities."
-  },
-  {
-    "title": "A Christmas Carol II: Rise of the Juggernauts",
-    "yearText": "Recent",
-    "yearSort": 2024,
-    "type": "Sci-Fi",
-    "category": "📖 Book Retellings 100+",
-    "description": "Tiny Tim is a ninja fighting a secret army! Most unusual sequel ever."
-  },
-  {
-    "title": "A Christmas Carol: A Live Radio Play - Colin Baker",
-    "yearText": "2023-2024",
-    "yearSort": 2024,
-    "type": "Live Radio Play / Stage Production",
-    "category": "Radio / Audio",
-    "description": "Crime and Comedy Theatre Company; Stage / Radio Play; Features Doctor Who actors Colin Baker and Tom Baker; Cast: Colin Baker (Ebenezer Scrooge), Peter Purves (Charles Dickens), Tom Baker (Jacob Marley (2024 filmed appearance))"
-  },
-  {
     "title": "A Christmas Carol: But With Anime Girls",
     "yearText": "2024",
     "yearSort": 2024,
@@ -320,44 +104,12 @@ const timelineData = [
     "description": "Gender-swapped cast of anime girls. Tagged as Story Rich, Visual Novel, Emotional."
   },
   {
-    "title": "A Whistle Wonderland: Christmas Melodies in a Celtic Style",
-    "yearText": "2024",
-    "yearSort": 2024,
-    "type": "Celtic / Irish / Folk",
-    "category": "Music / Albums / Scores",
-    "description": "Album. Christmas melodies performed and arranged in traditional/contemporary Irish style. Featuring whistles, Bodhrán, guitar, and bouzouki. Reflects beauty of Christmas music with Celtic flavor."
-  },
-  {
-    "title": "Ambient Xmas",
-    "yearText": "2024",
-    "yearSort": 2024,
-    "type": "Ambient / Electronic",
-    "category": "Music / Albums / Scores",
-    "description": "Album. Released November 1, 2024. Ambient Christmas album 'woven with the delicate threads of bespoke electronics, breathes new life into timeless carols.'"
-  },
-  {
     "title": "Fantasy Grounds - A Christmas Carol",
     "yearText": "Recent",
     "yearSort": 2024,
     "type": "D&D 5e DLC",
     "category": "🎮 Video Games 15+",
     "description": "D&D tabletop RPG adventure! Fight to vanquish evil claiming Scrooge's soul."
-  },
-  {
-    "title": "Hallmark Christmas Cruise Docuseries",
-    "yearText": "2024",
-    "yearSort": 2024,
-    "type": "cruise_ship",
-    "category": "Lost / Rare / Obscure",
-    "description": "Docuseries; IN PRODUCTION/RECENTLY AIRED; Exclusive look inside immersive Christmas-themed cruise experience. Cameras followed fans experiencing countdown to world premiere of Hallmark Christmas movie. Limited distribution through Hallmark.; Features Hallmark stars on board. Captures heartwarming moments of superfans on Christmas cruise. Different from traditional narrative adaptation."
-  },
-  {
-    "title": "Miss Marley",
-    "yearText": "Recent",
-    "yearSort": 2024,
-    "type": "Prequel",
-    "category": "📖 Book Retellings 100+",
-    "description": "Prequel exploring Jacob Marley's backstory before becoming a ghost."
   },
   {
     "title": "Scrooge Podcast",
@@ -376,68 +128,12 @@ const timelineData = [
     "description": "1980s aesthetic musical! Moving to West End May 2026. Multiple versions released."
   },
   {
-    "title": "The Last of the Spirits",
-    "yearText": "Recent",
-    "yearSort": 2024,
-    "type": "Alt Perspective",
-    "category": "📖 Book Retellings 100+",
-    "description": "Told from Ignorance and Want (street children)'s perspective. Sam must decide whether to KILL Scrooge!"
-  },
-  {
-    "title": "A Celtic Christmas",
-    "yearText": "2023",
-    "yearSort": 2023,
-    "type": "Celtic / Scottish / World Music",
-    "category": "Music / Albums / Scores",
-    "description": "Album. Released December 1, 2023. Seasonal music from range of traditions by finest musicians from world music scene. Produced by Robin Wynn Evans at Tpot studios in Perthshire hills, mastered by Brian Masterson in Dublin. Features Ross Ainslie (whistles/pipes), Donald Shaw (Capercaillie founder)."
-  },
-  {
-    "title": "A Christmas Carol - WBEZ / Goodman Theatre",
-    "yearText": "2023+",
-    "yearSort": 2023,
-    "type": "Audio Play",
-    "category": "Radio / Audio",
-    "description": "WBEZ 91.5 FM (Chicago's NPR station); Radio Broadcast; Annual tradition featuring Goodman Theatre's production, now in its 46th year. Partnership with WBEZ to bring the stage production to radio"
-  },
-  {
     "title": "Ebenezer and the Invisible World",
     "yearText": "2023",
     "yearSort": 2023,
     "type": "Metroidvania",
     "category": "🎮 Video Games 15+",
     "description": "Hand-drawn 2D Metroidvania! Reformed Scrooge fights to protect Victorian London. Ghost-powered abilities."
-  },
-  {
-    "title": "A Christmas Carol (2022 Australian Opera)",
-    "yearText": "2022",
-    "yearSort": 2022,
-    "type": "foreign_language",
-    "category": "Lost / Rare / Obscure",
-    "description": "Opera; LIMITED RUN; Opera relocated to present-day Melbourne. Features references to Australian culture (Ghost of Christmas Present as surf lifesaver). Only four performances. Unlikely to be commercially recorded.; Contemporary Australian setting with cultural references. Victorian Opera production."
-  },
-  {
-    "title": "A Christmas Carol (Opera)",
-    "yearText": "2022",
-    "yearSort": 2022,
-    "type": "Australia Opera",
-    "category": "International",
-    "description": "Opera composed by Graeme Koehne with libretto by Anna Goldsworthy. Story relocated to present-day Melbourne with Australian cultural references. Ghost of Christmas Present portrayed as a surf lifesaver. Produced by Victorian Opera at the Palais Theatre"
-  },
-  {
-    "title": "A Christmas Carol (Opera)",
-    "yearText": "2022",
-    "yearSort": 2022,
-    "type": "Australian Opera",
-    "category": "🌍 International Adaptations",
-    "description": "Australian adaptation relocated to Melbourne! Ghost of Christmas Present is a surf lifesaver. Local cultural twist."
-  },
-  {
-    "title": "A Christmas Carol (ish)",
-    "yearText": "2022",
-    "yearSort": 2022,
-    "type": "Comedy Musical / West End",
-    "category": "Music / Albums / Scores",
-    "description": "Stage Show. Comedy musical transferred to West End following sold-out development run at Soho Theatre in 2022. Ted Lasso star Nick Mohammed joined by Ghosts' Martha Howe-Douglas, David Elms, Kieran Hodgson."
   },
   {
     "title": "A New Diva's Christmas Carol",
@@ -454,22 +150,6 @@ const timelineData = [
     "type": "foreign_language",
     "category": "Lost / Rare / Obscure",
     "description": "Film; AVAILABLE ON NETFLIX; While available, it's a Mexican production with Scrooge-inspired character. Netflix Mexico's most-watched film December 2022 but lesser-known internationally.; Character Chuy is grumpy and 'Grinch-y,' cursed to repeat Christmas Eve over and over. Filmed in Mexico City. Mix of comedy, fantasy, and drama inspired by A Christmas Carol.; Cast: Mauricio Ochmann as Chuy, Ana Brenda Contreras"
-  },
-  {
-    "title": "A Very Synthy Christmas",
-    "yearText": "2022",
-    "yearSort": 2022,
-    "type": "Synthwave / Electronic",
-    "category": "Music / Albums / Scores",
-    "description": "Album. Released November 25, 2022. Synth-based instrumental music fusing jazz/fusion, synthwave, progressive rock, and ambient styles."
-  },
-  {
-    "title": "Christmas Album",
-    "yearText": "2022",
-    "yearSort": 2022,
-    "type": "Electronic / Berlin School Synth",
-    "category": "Music / Albums / Scores",
-    "description": "Album. Released December 2, 2022. Features 'dinky beats and vintage bleeps' with 'pulsing Berlin School synths' exploring 'drones, repetitions, textures and riffs.'"
   },
   {
     "title": "Christmas Carol",
@@ -520,28 +200,12 @@ const timelineData = [
     "description": "Apple TV+ musical from ghosts' perspective. Songs by Pasek & Paul."
   },
   {
-    "title": "Spirited",
-    "yearText": "2022",
-    "yearSort": 2022,
-    "type": "Musical Comedy",
-    "category": "🎬 Classic & Notable Film Adaptations",
-    "description": "Apple TV+ musical comedy from the ghosts' perspective. Songs by Pasek & Paul. Modern meta-comedy satire of adaptations."
-  },
-  {
     "title": "Spirited (Original Soundtrack)",
     "yearText": "2022",
     "yearSort": 2022,
     "type": "Musical Comedy / Film",
     "category": "Music / Albums / Scores",
     "description": "Motion Picture Soundtrack. Apple TV+ musical comedy starring Will Ferrell and Ryan Reynolds. Modern retelling from the ghosts' perspective with original songs by Pasek & Paul. Features 'That Christmas Morning Feelin',' 'Bringin' Back Christmas,' 'The View from Here,' 'The Story of Your Life (Marley's Haunt).' Score by Dominic Lewis. Released by Republic Records."
-  },
-  {
-    "title": "Verizon Christmas Carol",
-    "yearText": "2022",
-    "yearSort": 2022,
-    "type": "Telecom",
-    "category": "📢 Commercial Adaptations 24+",
-    "description": "Scrooge grumbles about bad cell reception until discovering Verizon."
   },
   {
     "title": "A Christmas Carol",
@@ -552,28 +216,12 @@ const timelineData = [
     "description": "Audio Drama Album. Released December 9, 2021 on Bandcamp. Audio and dramatic interpretation composed, performed, narrated and produced by Chris Fairey. Crossover jazz style."
   },
   {
-    "title": "A Christmas Carol (track)",
-    "yearText": "2021",
-    "yearSort": 2021,
-    "type": "Hip Hop",
-    "category": "Music / Albums / Scores",
-    "description": "Single. Track released December 23, 2021 from album 'Brief History of Bauxite.'"
-  },
-  {
     "title": "A Christmas Carol - BBC Radio 4 Extra",
     "yearText": "2021",
     "yearSort": 2021,
     "type": "Reading",
     "category": "Radio / Audio",
     "description": "BBC Radio 4 Extra; Radio Broadcast; Version broadcast on BBC Radio 4 Extra; Cast: Sean Baker (Reader)"
-  },
-  {
-    "title": "Aldi: Ebananna Scrooge",
-    "yearText": "2021",
-    "yearSort": 2021,
-    "type": "UK Grocery",
-    "category": "📢 Commercial Adaptations 24+",
-    "description": "A banana who hates Christmas! UK's beloved Kevin the Carrot franchise."
   },
   {
     "title": "Boyfriends of Christmas Past",
@@ -584,52 +232,12 @@ const timelineData = [
     "description": "Visited by ghosts of FOUR ex-boyfriends! Notable celebration of Korean-American culture in Hallmark's Christmas lineup."
   },
   {
-    "title": "Every Time a Bell Rings (Hallmark Movie)",
-    "yearText": "2021",
-    "yearSort": 2021,
-    "type": "cruise_ship",
-    "category": "Lost / Rare / Obscure",
-    "description": "Television Movie; AIRED - Available through Hallmark; Part of film set aboard American Duchess riverboat. Decision to include ship made during location scouting. While not direct adaptation, incorporates Christmas themes aboard cruise ship.; Producers saw ship tied up alongside and made it part of movie. Unique riverboat setting."
-  },
-  {
     "title": "Law & Order: Organized Crime – The Christmas Episode",
     "yearText": "2021",
     "yearSort": 2021,
     "type": "Crime Drama",
     "category": "Comprehensive: Crime Drama Episodes",
     "description": "When Eli goes missing, Stabler asks Benson and the task force to help him find his son while Wheatley considers his future. Features Stabler family Christmas drama."
-  },
-  {
-    "title": "OG Scrooge",
-    "yearText": "2021",
-    "yearSort": 2021,
-    "type": "Hip Hop / Theater",
-    "category": "Music / Albums / Scores",
-    "description": "Stage Production. York College Theatre reimagined as 'OG Scrooge' hip-hop style. Professor Thomas Marion wrote opening rap for Scrooge, worked through summer creating script of raps and dialogue. Student Rodriques built beats. Inspired by Hamilton."
-  },
-  {
-    "title": "Peloton: Hella-Swole Scrooge",
-    "yearText": "2021",
-    "yearSort": 2021,
-    "type": "Fitness",
-    "category": "📢 Commercial Adaptations 24+",
-    "description": "Scrooge screams at carolers, then gets transformed by Peloton workouts!"
-  },
-  {
-    "title": "Southwest In-Flight Entertainment Christmas Films",
-    "yearText": "2021",
-    "yearSort": 2021,
-    "type": "airline_inflight",
-    "category": "Lost / Rare / Obscure",
-    "description": "In-Flight Entertainment Portal; SEASONAL OFFERING; While Southwest offered 'Elf,' 'National Lampoon's Christmas Vacation,' 'The Best Man Holiday' on Inflight Entertainment Portal (some crew-selected), unknown if any A Christmas Carol version was included. Temporary seasonal offering.; Multiple airlines (American, Alaska, JetBlue, United, Southwest) shared 2021 holiday entertainment lineups. Time-limited availability."
-  },
-  {
-    "title": "A Christmas Album (featuring 'The Fire (A Christmas Carol)')",
-    "yearText": "2020s",
-    "yearSort": 2020,
-    "type": "Hip Hop / Soul",
-    "category": "Music / Albums / Scores",
-    "description": "Album. Soulful holiday blend of classic samples, dusty drums, and festive vibes on limited edition cassette. Track 'The Fire (A Christmas Carol)' featured. Cleverly executed hip-hop remix project."
   },
   {
     "title": "A Christmas Carol",
@@ -640,14 +248,6 @@ const timelineData = [
     "description": "British dance film directed by Jacqui Morris and David Morris. Story told through modern dance with voiceover dialogue. Choreography by Russell Maliphant. Mixed critical reception for innovative approach Cast: Simon Russell Beale (voice), Siân Phillips (voice), Carey Mulligan (voice), Daniel Kaluuya (voice), Andy Serkis (voice), Martin Freeman (voice), Leslie Caron (voice)"
   },
   {
-    "title": "A Christmas Carol",
-    "yearText": "2020",
-    "yearSort": 2020,
-    "type": "Power Metal / Symphonic Metal",
-    "category": "Music / Albums / Scores",
-    "description": "Concept Album. Swedish power metal band's 9-track Christmas Carol concept album. Released December 4, 2020 on Nuclear Blast. Tommy Johansson (Sabaton) founded band. Fuses traditional carols ('Jingle Bells,' 'O Holy Night,' 'O Come All Ye Faithful,' 'Hark The Herald Angels Sing,' 'Deck The Halls,' 'God Rest Ye Merry Gentlemen') with original symphonic power metal. Extended version includes 'Glory of Christmas' and 'This Christmas.'"
-  },
-  {
     "title": "A Christmas Carol (Dance Film)",
     "yearText": "2020",
     "yearSort": 2020,
@@ -656,28 +256,12 @@ const timelineData = [
     "description": "Radical animated/dance retelling. Victorian family watches paper theater that comes to life. Russell Maliphant choreography."
   },
   {
-    "title": "A Christmas Carol (Dominion Theatre)",
-    "yearText": "2020",
-    "yearSort": 2020,
-    "type": "Musical Theater / West End",
-    "category": "Music / Albums / Scores",
-    "description": "Stage Concert. London Musical Theatre Orchestra staged concert December 7-15, 2020 at Dominion Theatre during COVID-19 pandemic. Brian Conley as Scrooge, Matt Willis as Bob Cratchit, Jacqueline Jossa as Emily/Ghost of Christmas Future, Lucie Jones as Ghost of Christmas Past, Sandra Marvin as Mrs Fezziwig, Cedric Neal as Ghost of Christmas Present, Jeremy Secomb as Jacob Marley."
-  },
-  {
     "title": "A Christmas Carol (Old Vic)",
     "yearText": "2020",
     "yearSort": 2020,
     "type": "Live Stream",
     "category": "🎭 Musical & Theatrical Adaptations",
     "description": "Jack Thorne adaptation from empty Old Vic auditorium via Zoom streaming during COVID. The Broadway version won 5 Tony Awards!"
-  },
-  {
-    "title": "A Christmas Carol (One-Man Show)",
-    "yearText": "2020",
-    "yearSort": 2020,
-    "type": "Filmed Stage",
-    "category": "🎭 Musical & Theatrical Adaptations",
-    "description": "Tony winner Jefferson Mays plays EVERY character. Filmed during pandemic at United Palace. Now streaming."
   },
   {
     "title": "A Christmas Carol (Original Score)",
@@ -696,14 +280,6 @@ const timelineData = [
     "description": "Motion Picture Soundtrack. BBC/FX miniseries soundtrack. 20 tracks including 'Marley's Grave,' 'Scrooge,' 'Scrooge's Window,' 'Fred.' O'Halloran and Bertelmann previously nominated for Academy Awards for 'Lion' (2016)."
   },
   {
-    "title": "A Christmas Carol (track)",
-    "yearText": "2020",
-    "yearSort": 2020,
-    "type": "Hip Hop",
-    "category": "Music / Albums / Scores",
-    "description": "Single. Track released December 24, 2020 from 'The Christmas Tape.'"
-  },
-  {
     "title": "A Christmas Carol: A Radio Play - Ford's Theatre / WAMU",
     "yearText": "2020s",
     "yearSort": 2020,
@@ -718,54 +294,6 @@ const timelineData = [
     "type": "Hallmark Channel",
     "category": "🖥️ Modern & Streaming Era (2010-Present)",
     "description": "Country music setting! Workaholic TV producer visited by spirits while working on country music Christmas special. Real country stars."
-  },
-  {
-    "title": "A Reggae Christmas",
-    "yearText": "2020s",
-    "yearSort": 2020,
-    "type": "Reggae / Ska",
-    "category": "Music / Albums / Scores",
-    "description": "Album (LP). French crew ERM All Stars (Easy Riddim Maker) led by Olivier Gangloff (Piment). Reimagines timeless Christmas songs in reggae & ska style."
-  },
-  {
-    "title": "Christmas Carol OST",
-    "yearText": "2020",
-    "yearSort": 2020,
-    "type": "Electronic / Synth / Experimental",
-    "category": "Music / Albums / Scores",
-    "description": "Original Soundtrack. Released December 11, 2020. Original soundtrack to Manual Cinema's Christmas Carol, recorded live at MC Studios in Chicago. Performed with vocals, keyboards/synthesizers, cello, bass guitar, and violin."
-  },
-  {
-    "title": "Cosmic Christmas",
-    "yearText": "2020s",
-    "yearSort": 2020,
-    "type": "Ambient / Kosmische / Synth",
-    "category": "Music / Albums / Scores",
-    "description": "Album. Ambient, kosmiche synth Christmas music inspired by old synthesizer New Age holiday music cassette tapes. Christmas concept album with experimental approach."
-  },
-  {
-    "title": "Estella Scrooge (Original Soundstage Recording)",
-    "yearText": "2020",
-    "yearSort": 2020,
-    "type": "Musical Theater",
-    "category": "Music / Albums / Scores",
-    "description": "Soundstage Recording. Estella Scrooge: A Christmas Carol with a Twist. New holiday musical uniquely blending theatre, film and cutting-edge animation. Stars Betsy Wolfe as Estella Scrooge and Clifton Duncan as Philip 'Pip' Nickleby."
-  },
-  {
-    "title": "It's Christmas Time Again!",
-    "yearText": "2020s",
-    "yearSort": 2020,
-    "type": "Synthwave / Retro",
-    "category": "Music / Albums / Scores",
-    "description": "Compilation. 24 tracks of Christmas retro synth in synthwave style."
-  },
-  {
-    "title": "Majestica - Christmas Carol Concept Album",
-    "yearText": "2020",
-    "yearSort": 2020,
-    "type": "Power Metal",
-    "category": "🎵 Music & Album Adaptations 68+",
-    "description": "Full power metal concept album! Heavy guitars meet Dickens."
   },
   {
     "title": "SCROOGE: A Christmas Carol Podcast",
@@ -790,22 +318,6 @@ const timelineData = [
     "type": "Audio Drama",
     "category": "Radio / Audio",
     "description": "Servant Stage; Audio Drama; Modern audio drama production"
-  },
-  {
-    "title": "Seven Seas Splendor - World's Most Expensive Cruise Christmas",
-    "yearText": "2020",
-    "yearSort": 2020,
-    "type": "cruise_ship",
-    "category": "Lost / Rare / Obscure",
-    "description": "Documentary TV Special; AIRED; Documentary about Christmas on world's most expensive cruise ship. Features Christmas show, luxurious dining, excursions, opulent spa. Limited one-time broadcast.; Special Christmas show aboard Seven Seas Splendor. Documentary format showing holiday celebrations."
-  },
-  {
-    "title": "Ska of Wonder",
-    "yearText": "2020s",
-    "yearSort": 2020,
-    "type": "Ska / Pop Punk",
-    "category": "Music / Albums / Scores",
-    "description": "Album (12 tracks). Good mix of Christmas songs done in ska and pop punk style."
   },
   {
     "title": "The Essential Dickens Christmas - Spoken Realms",
@@ -848,28 +360,12 @@ const timelineData = [
     "description": "Three-part dark fantasy miniseries written by Steven Knight, executive produced by Tom Hardy and Ridley Scott. Aired on BBC One and FX. Presented a darker, adult-oriented take on the classic. Filmed in Rainham Hall, Hampstead, and Warwick Cast: Guy Pearce as Scrooge, Andy Serkis as Ghost of Christmas Past, Stephen Graham as Jacob Marley, Joe Alwyn as Bob Cratchit, Charlotte Riley, Jason Flemyng as Ghost of Christmas Future"
   },
   {
-    "title": "A Christmas Carol",
-    "yearText": "2019",
-    "yearSort": 2019,
-    "type": "FX/BBC Miniseries",
-    "category": "👻 Drama, Horror & Dark Adaptations",
-    "description": "VERY dark adult-oriented adaptation by Steven Knight (Peaky Blinders). Horror elements, brief nudity, Serkis terrifying as Ghost of Past."
-  },
-  {
     "title": "A Christmas Carol (BBC/FX Miniseries) – 3-Part Miniseries",
     "yearText": "2019",
     "yearSort": 2019,
     "type": "Horror Drama",
     "category": "Comprehensive: Horror And Dark Adaptations",
     "description": "Dark fantasy drama written by Steven Knight with Hardy and Ridley Scott as executive producers. A darker, adult-oriented take with horror elements, brief nudity, adult language, and implications of child abuse. Ghost of Christmas Yet to Come has his mouth crudely stitched shut."
-  },
-  {
-    "title": "A Christmas Carol (Broadway Version)",
-    "yearText": "2019",
-    "yearSort": 2019,
-    "type": "Musical Theater / Broadway",
-    "category": "Music / Albums / Scores",
-    "description": "Stage Musical. Jack Thorne adaptation. Christopher Nightingale won Tony Award for Best Original Score written for Theatre. Different from Alan Menken version."
   },
   {
     "title": "A Christmas Carol (FX/BBC)",
@@ -886,14 +382,6 @@ const timelineData = [
     "type": "Progressive Rock",
     "category": "Music / Albums / Scores",
     "description": "Compilation Album. Purple Pyramid Records release featuring Steve Morse, Annie Haslam (Renaissance), Sonja Kristina (Curved Air), Martin Turner (Wishbone Ash), Simon House (Hawkwind), Malcolm McDowell. Producer Billy Sherwood (Yes, Circa) created expansive musical journey through Christmas classics."
-  },
-  {
-    "title": "Patrick Stewart's A Christmas Carol",
-    "yearText": "1988-2019",
-    "yearSort": 2019,
-    "type": "Broadway",
-    "category": "🎭 Stage Theater Productions 100+",
-    "description": "Highest single-week sales in Broadway history (2001). Drama Desk Award winner. No costumes or props!"
   },
   {
     "title": "\"Last Christmas!\"",
@@ -928,44 +416,12 @@ const timelineData = [
     "description": "Comedy special from Mischief Theatre where the fictional Cornley Polytechnic Drama Society disastrously attempts to perform A Christmas Carol. Watched by 4.61 million viewers. Follow-up to 'Peter Pan Goes Wrong' Cast: Mischief Theatre Company (Henry Lewis, Jonathan Sayer, Henry Shields), Derek Jacobi, Diana Rigg"
   },
   {
-    "title": "A Christmas Carol Goes Wrong",
-    "yearText": "2017",
-    "yearSort": 2017,
-    "type": "BBC Comedy",
-    "category": "🎭 Musical & Theatrical Adaptations",
-    "description": "Cornley Polytechnic Drama Society hijacks live BBC production with deliberately disastrous results. Hilarious slapstick chaos."
-  },
-  {
     "title": "A Christmas Carol Goes Wrong – TV Special",
     "yearText": "2017",
     "yearSort": 2017,
     "type": "Comedy",
     "category": "Comprehensive: Comedy Sitcom Episodes",
     "description": "The Cornley Polytechnic Drama Society hijacks a live BBC adaptation of A Christmas Carol. Superbly farcical offering where their attempt to take over the BBC broadcast goes dramatically wrong."
-  },
-  {
-    "title": "A Christmas Cruise (Hallmark-style Movie)",
-    "yearText": "2017",
-    "yearSort": 2017,
-    "type": "cruise_ship",
-    "category": "Lost / Rare / Obscure",
-    "description": "Television Movie; RELEASED; While released, it's journalist-on-festive-Christmas-cruise story that dispenses life advice and finds romance. Not direct adaptation but cruise-themed Christmas content.; Stars Vivica Fox. Journalist invited by best friend on festive themed Christmas cruise. Available on streaming.; Cast: Vivica Fox as Pam Stevenson"
-  },
-  {
-    "title": "Budweiser: Ghost of Spuds",
-    "yearText": "2017",
-    "yearSort": 2017,
-    "type": "Super Bowl",
-    "category": "📢 Commercial Adaptations 24+",
-    "description": "Super Bowl LI ad! Spirit of Spuds escorts drinker through parties past."
-  },
-  {
-    "title": "Christmas Carol Goes Wrong",
-    "yearText": "2017",
-    "yearSort": 2017,
-    "type": "Comedy / Theater",
-    "category": "Music / Albums / Scores",
-    "description": "TV Special / Stage Show. Cornley Polytechnic Drama Society hijacks BBC production. Aired BBC One December 30, 2017, featuring Dame Diana Rigg and Sir Derek Jacobi. New stage production at Apollo Theatre December 6, 2025-January 25, 2026. Written by Henry Lewis, Jonathan Sayer, Henry Shields."
   },
   {
     "title": "Family Guy – Don't Be a Dickens at Christmas",
@@ -984,28 +440,12 @@ const timelineData = [
     "description": "Carol finds herself in a reverse 'Christmas Carol' where she learns she has too much Christmas spirit and is driving everyone insane with her overbearing, stress-inducing holiday planning. The entire news team cathartically destroys Christmas decorations to relieve their stress. Meanwhile, Chuck's estranged son visits and Katie tries to get father and son to reconnect."
   },
   {
-    "title": "Harvey Kurtzman's Marley's Ghost",
-    "yearText": "2017",
-    "yearSort": 2017,
-    "type": "comiXology",
-    "category": "📚 Comics & Graphic Novels 42+",
-    "description": "Won Eisner Award 2018! Kurtzman's unfinished 1950s project completed 63 years later."
-  },
-  {
     "title": "SNL: Trump as Scrooge",
     "yearText": "2017",
     "yearSort": 2017,
     "type": "Sketch",
     "category": "😂 Parodies & Comedy Adaptations",
     "description": "Political parody cold open. Trump as Scrooge visited by Billy Bush (Past), Putin (Present), Hillary Clinton (Future)."
-  },
-  {
-    "title": "The Afterlife of Holly Chase",
-    "yearText": "2017",
-    "yearSort": 2017,
-    "type": "YA Novel",
-    "category": "📖 Book Retellings 100+",
-    "description": "Teenage Scrooge dies and must work as Ghost of Christmas Past for \"Project Scrooge\"!"
   },
   {
     "title": "Virgin Australia Christmas Carol Flight Attendant Performance",
@@ -1056,28 +496,12 @@ const timelineData = [
     "description": "Amateur Film; AMATEUR PRODUCTION; Identified as amateur production at beginning. Described as 'downright amateurish' by some critics. Director cast himself as Scrooge and used friends as cast.; Shows considerable creativity in use of limited budget and resources according to some defenders."
   },
   {
-    "title": "Punk Rock Christmas",
-    "yearText": "2015",
-    "yearSort": 2015,
-    "type": "Punk Rock",
-    "category": "Music / Albums / Scores",
-    "description": "Compilation Album. 19-song compilation featuring various punk rock Christmas songs. Available on Spotify."
-  },
-  {
     "title": "Thomas' Christmas Carol",
     "yearText": "2015",
     "yearSort": 2015,
     "type": "DVD",
     "category": "🧸 Children's TV Adaptations",
     "description": "Diesel gets visited by \"ghostly\" Christmas engines in double-length Dickens adaptation set in the world of Thomas the Tank Engine."
-  },
-  {
-    "title": "Tim and Scrooge",
-    "yearText": "2015",
-    "yearSort": 2015,
-    "type": "Musical Theater",
-    "category": "Music / Albums / Scores",
-    "description": "Stage Musical. Neil Berg's holiday musical with book and lyrics by Nick Meglin (former Mad Magazine editor). Rave reviews December 2015 at Westchester Broadway Theater in NY. Set twelve years after Scrooge's transformation. Scrooge has died and bequeathed business to Tim. Voted 'one of the best musicals' of inaugural NYMF festival."
   },
   {
     "title": "\"White Christmas\"",
@@ -1094,14 +518,6 @@ const timelineData = [
     "type": "Radio Drama with Orchestra",
     "category": "Radio / Audio",
     "description": "BBC Radio 4; Radio Broadcast; Recorded before an audience in BBC Maida Vale Studios; Cast: Actors with BBC Singers and BBC Symphony Orchestra (Full Cast)"
-  },
-  {
-    "title": "Appalachian Christmas (Folk Carols from the Mountains)",
-    "yearText": "2014",
-    "yearSort": 2014,
-    "type": "Folk / Appalachian / Bluegrass",
-    "category": "Music / Albums / Scores",
-    "description": "Album. Released October 10, 2014. Features appalachian, banjo, Christian, christmas, dulcimer, fiddle, folk, and spiritual elements. 'Sure to become an American Christmas favorite.'"
   },
   {
     "title": "Black Mirror – White Christmas",
@@ -1128,28 +544,12 @@ const timelineData = [
     "description": "Gaiman reads from Dickens' own annotated \"prompt\" copy at NY Public Library."
   },
   {
-    "title": "20 Christmas Songs and Carols Sung by Children",
-    "yearText": "2013",
-    "yearSort": 2013,
-    "type": "Children's Music",
-    "category": "Music / Albums / Scores",
-    "description": "Album. 20 Christmas carols and songs performed by children's choir."
-  },
-  {
     "title": "Christmas Stories: A Christmas Carol",
     "yearText": "2013",
     "yearSort": 2013,
     "type": "Hidden Object",
     "category": "🎮 Video Games 15+",
     "description": "93% positive Steam reviews! Hidden object puzzle adventure through Dickens' story."
-  },
-  {
-    "title": "Deadpool: Killustrated #3",
-    "yearText": "2013",
-    "yearSort": 2013,
-    "type": "Comic",
-    "category": "📚 Comics & Graphic Novels 42+",
-    "description": "Deadpool terrorizes Ebenezer Scrooge in the Ideaverse of literary characters."
   },
   {
     "title": "Epic Rap Battles: Trump vs Scrooge",
@@ -1198,14 +598,6 @@ const timelineData = [
     "type": "TV Sitcom Episode",
     "category": "TV Sitcoms",
     "description": "Lola decides to stage her own version of A Christmas Carol to renew the town's holiday spirit."
-  },
-  {
-    "title": "Batman: Noel",
-    "yearText": "2011",
-    "yearSort": 2011,
-    "type": "Graphic Novel",
-    "category": "📚 Comics & Graphic Novels 42+",
-    "description": "#1 New York Times Bestseller! Batman as Scrooge, Catwoman as Past, Superman as Present, Joker as Future."
   },
   {
     "title": "Community – Regional Holiday Music",
@@ -1296,28 +688,12 @@ const timelineData = [
     "description": "Audible Studios; Audiobook; Tim Curry performs this timeless holiday story in a deliciously dark tone, returning it to its Dickensian roots with vivid imagining of Victorian London; Cast: Tim Curry (Narrator (all characters))"
   },
   {
-    "title": "A Proggy Christmas",
-    "yearText": "2010s",
-    "yearSort": 2010,
-    "type": "Progressive Rock",
-    "category": "Music / Albums / Scores",
-    "description": "Album. Brainchild of prog mastermind Neal Morse on Radiant Records. Features Mike Portnoy (ex-Dream Theater), Steve Hackett (ex-Genesis), Roine Stolt, Steve Morse, Pete Trewavas (Transatlantic/Marillion). Ultimate Christmas prog album with shreddy guitars and soothing fretless bass."
-  },
-  {
     "title": "Charles Dickens BBC Radio Drama Collection",
     "yearText": "2010s",
     "yearSort": 2010,
     "type": "Collection of BBC Radio Full-Cast Dramatisations",
     "category": "Radio / Audio",
     "description": "BBC Audio; Audiobook Collection; The Charles Dickens BBC Radio Drama Collection: The Later Years - Eight BBC Radio Full-Cast Dramatisations (includes A Christmas Carol); Cast: Robert Glenister (Various), Robert Lindsay (Various), Ian Holm (Various), Kenneth Cranham (Various), Sir Ian McKellen (Various), Alison Steadman (Various), Geraldine McEwan (Various), Andrew Scott (Various)"
-  },
-  {
-    "title": "Christmas Carol: The Remix",
-    "yearText": "2010s",
-    "yearSort": 2010,
-    "type": "Hip Hop / Musical Theater",
-    "category": "Music / Albums / Scores",
-    "description": "Stage Musical. Hip hop adaptation of Dickens' classic by Chicago's Q Brothers. 'Add-RAP-tation' featuring Ghosts of Hip-Hop Past, Present, and Future. Seven-year sit-down run at Tony Award-winning Chicago Shakespeare Theater. Now touring various venues including St. Louis Shakespeare Festival."
   },
   {
     "title": "Doctor Who – A Christmas Carol",
@@ -1368,14 +744,6 @@ const timelineData = [
     "description": "Motion-capture epic. Grossed $325.3 million. Released in IMAX 3D."
   },
   {
-    "title": "A Christmas Carol (Disney)",
-    "yearText": "2009",
-    "yearSort": 2009,
-    "type": "3D Animated",
-    "category": "🎬 Classic & Notable Film Adaptations",
-    "description": "Motion-capture by Robert Zemeckis. Released in 3D/IMAX. Grossed $325.3 million worldwide. Carrey plays multiple roles."
-  },
-  {
     "title": "Community – Comparative Religion",
     "yearText": "2009",
     "yearSort": 2009,
@@ -1390,14 +758,6 @@ const timelineData = [
     "type": "Nintendo DS",
     "category": "🎮 Video Games 15+",
     "description": "Point-and-click adventure based on the Jim Carrey film. Ghost-catching mini-games."
-  },
-  {
-    "title": "Disney's A Christmas Carol",
-    "yearText": "2009",
-    "yearSort": 2009,
-    "type": "United States Animated Film (Motion Capture)",
-    "category": "International",
-    "description": "Robert Zemeckis-directed motion-capture 3D animated film. Jim Carrey played Scrooge and several other characters using performance-capture technology. Disney's third adaptation of Dickens' story. Released in German as 'Disneys Eine Weihnachtsgeschichte' Cast: Jim Carrey as Scrooge and multiple characters"
   },
   {
     "title": "Disney's A Christmas Carol (Original Score)",
@@ -1456,28 +816,12 @@ const timelineData = [
     "description": "Dennis and Dee decide to teach Frank a lesson 'A Christmas Carol'-style by tracking down the old business partner Frank screwed over. They get him to pretend to be a ghost. Meanwhile, Mac and Charlie discover their Christmas memories were repressed - Mac's family actually robbed other families at Christmas. Features the infamous scene of naked Frank being birthed from a couch and Charlie violently attacking Santa."
   },
   {
-    "title": "It's Always Sunny in Philadelphia – A Very Sunny Christmas",
-    "yearText": "2009",
-    "yearSort": 2009,
-    "type": "Dark Comedy",
-    "category": "Comprehensive: Comedy Sitcom Episodes",
-    "description": "43-minute special where Dennis and Dee pull a Christmas Carol-type scheme to show Frank what a terrible father he's been. Features Frank hiding inside a leather couch and a Rankin/Bass-style stop-motion hallucination sequence. Dark comedy homage."
-  },
-  {
     "title": "Joy to the World: A Bluegrass Christmas",
     "yearText": "2009",
     "yearSort": 2009,
     "type": "Bluegrass / Country",
     "category": "Music / Albums / Scores",
     "description": "Album. Released October 13, 2009. Peaked at #8 on U.S. Billboard Top Bluegrass Albums chart in 2009 and #39 on U.S. Billboard Top Holiday Albums chart in 2010. Deluxe edition includes CD/DVD."
-  },
-  {
-    "title": "Punk Rawk Christmas",
-    "yearText": "2009",
-    "yearSort": 2009,
-    "type": "Punk Rock",
-    "category": "Music / Albums / Scores",
-    "description": "Album. Punk rock Christmas album by MxPx."
   },
   {
     "title": "A Christmas Carol - BBC Radio 4 Book at Bedtime",
@@ -1584,14 +928,6 @@ const timelineData = [
     "description": "Christmas hits Seattle with Izzie caring for a man who fell from his roof while hanging decorations. Cristina helps perform a heart transplant on a depressed boy."
   },
   {
-    "title": "60 Christmas Carols for Kids",
-    "yearText": "2004",
-    "yearSort": 2004,
-    "type": "Children's Music",
-    "category": "Music / Albums / Scores",
-    "description": "Album. 60 Christmas songs performed for children."
-  },
-  {
     "title": "A Christmas Carol - Colonial Radio Theatre",
     "yearText": "2004",
     "yearSort": 2004,
@@ -1606,30 +942,6 @@ const timelineData = [
     "type": "United States TV Movie Musical (NBC)",
     "category": "International",
     "description": "Based on the 1994 stage musical by Alan Menken and Lynn Ahrens. Directed by Arthur Allan Seidelman. Aired on NBC. Won Emmy Award Cast: Kelsey Grammer as Scrooge, Jesse L. Martin, Jane Krakowski, Jennifer Love Hewitt, Jason Alexander, Geraldine Chaplin"
-  },
-  {
-    "title": "A Christmas Carol: The Musical",
-    "yearText": "2004",
-    "yearSort": 2004,
-    "type": "TV Movie Musical",
-    "category": "🎭 Musical & Theatrical Adaptations",
-    "description": "Hallmark $17M production with Alan Menken music and Lynn Ahrens lyrics. 22 songs. Based on Madison Square Garden stage show."
-  },
-  {
-    "title": "A Christmas Carol: The Musical (TV Soundtrack)",
-    "yearText": "2004",
-    "yearSort": 2004,
-    "type": "TV Musical / Broadway",
-    "category": "Music / Albums / Scores",
-    "description": "Soundtrack Album. Hallmark Entertainment TV adaptation for NBC featuring Kelsey Grammer as Scrooge, Jason Alexander as Marley, Jane Krakowski, Jesse L. Martin, Geraldine Chaplin, and Jennifer Love Hewitt. Orchestrated by Michael Starobin, performed by Budapest Film Orchestra."
-  },
-  {
-    "title": "Jonah's Holiday Carol",
-    "yearText": "2004",
-    "yearSort": 2004,
-    "type": "Marvel Holiday",
-    "category": "📚 Comics & Graphic Novels 42+",
-    "description": "Captain America (Past), The Thing (Present), Spider-Man (Future) visit JJJ."
   },
   {
     "title": "Karroll's Christmas – TV Movie",
@@ -1712,36 +1024,12 @@ const timelineData = [
     "description": "Television Movie; AIRED ONCE - Limited Availability; Modern adaptation with elements of William Dean Howell's 'Christmas Every Day' added. Eddie Scrooge is cruel loan shark bringing misery to residents of poor housing estate. Limited distribution after initial broadcast.; Contemporary setting with Ross Kemp as modern Scrooge character.; Cast: Ross Kemp as Eddie Scrooge"
   },
   {
-    "title": "A Christmas Carol - Patrick Stewart Solo Recording",
-    "yearText": "1990s-2000s",
-    "yearSort": 2000,
-    "type": "Solo Performance / Audiobook",
-    "category": "Radio / Audio",
-    "description": "Simon & Schuster Audio; Audiobook; Grammy Award Nominee for Best Spoken Word Album. Based on Stewart's acclaimed one-man stage show performed on Broadway and in London to sell-out audiences; Cast: Patrick Stewart (All characters (solo performance))"
-  },
-  {
-    "title": "A Christmas Carol Symphony",
-    "yearText": "2000s",
-    "yearSort": 2000,
-    "type": "Classical / Orchestral",
-    "category": "Music / Albums / Scores",
-    "description": "Orchestral Composition. Big, robust orchestral work incorporating at least a dozen carols including 'Deck the hall,' 'Es ist ein Ros' entsprungen,' 'Ding dong merrily on high,' 'The holly and the ivy,' 'We wish you a merry Christmas.'"
-  },
-  {
     "title": "A Christmas Carol: A Signature Performance by Tim Curry",
     "yearText": "2000s",
     "yearSort": 2000,
     "type": "Spoken Word / Audiobook",
     "category": "Music / Albums / Scores",
     "description": "Audio Recording. Audible Original unabridged performance. Tim Curry's warm, deep, arch voice providing unique spin on treasured classic. Full characterizations of all roles. Curry starred as Scrooge in Broadway musical 2001."
-  },
-  {
-    "title": "A Classical Kids Christmas",
-    "yearText": "2000s",
-    "yearSort": 2000,
-    "type": "Children's Classical Music",
-    "category": "Music / Albums / Scores",
-    "description": "Album. Classic poetry of the season including T'was The Night Before Christmas, Longfellow's Christmas Carol, Hardy's The Oxen. Performed by exquisite children's choirs, soloists, and instrumentalists."
   },
   {
     "title": "A Diva's Christmas Carol",
@@ -1760,36 +1048,12 @@ const timelineData = [
     "description": "Audio Drama Recording. Full-cast dramatization featuring powerful music score. Opens with 'God Rest Ye Merry Gentlemen,' includes frightening tones of 'The Ghost of Christmas Future.' J.T. Turner and Colonial Radio Players perform, Jerry Robbins dramatization."
   },
   {
-    "title": "Christmas Carol Suite",
-    "yearText": "2000s",
-    "yearSort": 2000,
-    "type": "Classical / Chamber Music",
-    "category": "Music / Albums / Scores",
-    "description": "Composition / Recording. String quartet composition including 'God Rest Ye Merry Gentlemen.' MP3 recording available on IMSLP."
-  },
-  {
-    "title": "Christmas Carols",
-    "yearText": "2000s",
-    "yearSort": 2000,
-    "type": "Children's Music",
-    "category": "Music / Albums / Scores",
-    "description": "Enhanced CD. 15 classic Christmas carols arranged and performed in classic kids style. Enhanced CD includes printable activities and coloring pages. Features lyrics and split-track versions for singalong."
-  },
-  {
     "title": "ER – The Greatest of Gifts",
     "yearText": "2000",
     "yearSort": 2000,
     "type": "Medical Drama",
     "category": "Comprehensive: Medical Drama Episodes",
     "description": "Split between County General's maternity ward where Carter helps Chen have her baby, and New York where Mark and Elizabeth seek expert advice about Mark's brain tumor. Features hope and Christmas miracles."
-  },
-  {
-    "title": "Kids Christmas Collection",
-    "yearText": "2000s",
-    "yearSort": 2000,
-    "type": "Children's Music",
-    "category": "Music / Albums / Scores",
-    "description": "Album (28 tracks). 28 tracks including top carols and songs from church and school, performed by London Fox Childrens Choir."
   },
   {
     "title": "The Very Best of Celtic Christmas",
@@ -1816,22 +1080,6 @@ const timelineData = [
     "description": "TNT/Hallmark co-production starring Patrick Stewart, who had previously performed a one-man stage adaptation. Directed by David Hugh Jones. Received Emmy, Saturn Award, and SAG Award nominations Cast: Patrick Stewart as Scrooge, Richard E. Grant as Bob Cratchit, Joel Grey as Ghost of Christmas Past, Ian McNeice as Ghost of Christmas Present, Dominic West as Fred"
   },
   {
-    "title": "A Christmas Carol",
-    "yearText": "1999",
-    "yearSort": 1999,
-    "type": "TV Movie",
-    "category": "🎬 Classic & Notable Film Adaptations",
-    "description": "Based on Stewart's legendary one-man theater show. SAG Award nominated. Considered most accurate adaptation to the text."
-  },
-  {
-    "title": "Cuento de Navidad",
-    "yearText": "1999",
-    "yearSort": 1999,
-    "type": "Mexican Telenovela",
-    "category": "🌍 International Adaptations",
-    "description": "Mexican telenovela adaptation. \"Cuento de Navidad\" (Christmas Story) brings Dickens to Latin American television."
-  },
-  {
     "title": "The Ghosts of Christmas Eve",
     "yearText": "1999",
     "yearSort": 1999,
@@ -1846,14 +1094,6 @@ const timelineData = [
     "type": "TV Sitcom Episode",
     "category": "TV Sitcoms",
     "description": "A satire of Christmas commercialization. Mr. Burns shows up after being visited by three ghosts that night and decides to donate money to Springfield Elementary following an epiphany (in reference to A Christmas Carol). The transformation happened offscreen and is just mentioned by a narrator. Moe also joined after visions showing what life would be like without him (It's a Wonderful Life reference)."
-  },
-  {
-    "title": "Trans-Siberian Orchestra: Ghosts of Christmas Eve",
-    "yearText": "1999",
-    "yearSort": 1999,
-    "type": "Rock Opera",
-    "category": "🎵 Music & Album Adaptations 68+",
-    "description": "Touring arena spectacular combining Christmas Carol themes with rock opera."
   },
   {
     "title": "An All Dogs Christmas Carol",
@@ -1888,28 +1128,12 @@ const timelineData = [
     "description": "US American animated film directed by Stan Phillips, dubbed into German for German audiences"
   },
   {
-    "title": "A Christmas Carol",
-    "yearText": "1997",
-    "yearSort": 1997,
-    "type": "Animated Musical",
-    "category": "🎨 Animated Adaptations",
-    "description": "DIC Productions musical with 8 original songs. Notable for Whoopi Goldberg as Ghost of Christmas Present."
-  },
-  {
     "title": "A Christmas Carol (DIC Productions Animated)",
     "yearText": "1997",
     "yearSort": 1997,
     "type": "direct_to_video",
     "category": "Lost / Rare / Obscure",
     "description": "Animated; RARE - Limited Availability; Animated musical with impressive voice cast. Limited distribution. Charming animation that's nostalgia source for children of 1990s decade. Available on YouTube but limited commercial availability.; Scrooge has dog named 'Debit' not in Dickens' original. Animated musical adaptation.; Cast: Tim Curry as Scrooge (voice), Whoopi Goldberg (voice), Michael York (voice), Ed Asner (voice)"
-  },
-  {
-    "title": "A Punk & Ska Christmas Gone Wrong",
-    "yearText": "1997",
-    "yearSort": 1997,
-    "type": "Punk / Ska",
-    "category": "Music / Albums / Scores",
-    "description": "Compilation Album. CD compilation album from 1997 featuring punk and ska Christmas songs."
   },
   {
     "title": "Ebenezer",
@@ -1920,36 +1144,12 @@ const timelineData = [
     "description": "Western version produced for Canadian TV with Scrooge reimagined as a land baron Cast: Jack Palance as Ebenezer Scrooge"
   },
   {
-    "title": "Ebenezer",
-    "yearText": "1997",
-    "yearSort": 1997,
-    "type": "foreign_language",
-    "category": "Lost / Rare / Obscure",
-    "description": "Television Movie; RARE - Limited Availability; Western version produced for Canadian TV. Jack Palance plays land baron Ebenezer Scrooge. Limited distribution outside Canada.; Canadian production with Western setting. Jack Palance in title role.; Cast: Jack Palance as Ebenezer Scrooge"
-  },
-  {
-    "title": "Ebenezer",
-    "yearText": "1997",
-    "yearSort": 1997,
-    "type": "Canadian Western",
-    "category": "🌍 International Adaptations",
-    "description": "Western genre adaptation! Jack Palance plays Scrooge as a ruthless land baron in the Old West. Canadian production."
-  },
-  {
     "title": "Ms. Scrooge",
     "yearText": "1997",
     "yearSort": 1997,
     "type": "rare_early_television",
     "category": "Lost / Rare / Obscure",
     "description": "Television Movie; RARE; Swaps both Scrooge and Marley for modern female characters. Cicely Tyson stars. Limited distribution and availability.; Gender-swapped adaptation with acclaimed actress Cicely Tyson.; Cast: Cicely Tyson in main role"
-  },
-  {
-    "title": "Ms. Scrooge",
-    "yearText": "1997",
-    "yearSort": 1997,
-    "type": "Hallmark Movie",
-    "category": "😂 Parodies & Comedy Adaptations",
-    "description": "Race-swapped, gender-swapped! Ebenita Scrooge is a miserly banker. Unique twist: ghosts are souls trying to repent from hell."
   },
   {
     "title": "Ms. Scrooge – TV Movie",
@@ -1968,14 +1168,6 @@ const timelineData = [
     "description": "While not a direct Christmas Carol adaptation, this famous episode features Frank Costanza's creation of Festivus, an alternative to Christmas. Kramer becomes fascinated with the concept and celebrates it. The episode includes the Festivus dinner, aluminum pole, airing of grievances, and feats of strength. TV Guide ranked this episode number three on its 'Top 10 Holiday Episodes' list."
   },
   {
-    "title": "A Christmas Carol (chamber orchestra)",
-    "yearText": "1996",
-    "yearSort": 1996,
-    "type": "Classical / Narrative Music",
-    "category": "Music / Albums / Scores",
-    "description": "Chamber Orchestra Recording. Originally for narrator and string quartet, premiered at London's Purcell Room by Bingham String Quartet and Richard Stilgoe. 2020 orchestral version features Stephen Fry narration recorded during Covid lockdown. BBC Concert Orchestra under David Hill. Weaves in 'Coventry Carol,' 'Somerset Carol,' 'The First Nowell,' 'Ding Dong Merrily on High,' 'Deck the Halls,' 'God Rest Ye Merry, Gentlemen.'"
-  },
-  {
     "title": "A Christmas Carol - Focus on the Family Radio Theatre",
     "yearText": "1996",
     "yearSort": 1996,
@@ -1990,22 +1182,6 @@ const timelineData = [
     "type": "Beavis and Butt-Head",
     "category": "😂 Parodies & Comedy Adaptations",
     "description": "Beavis as Scrooge-like Burger World manager visited by Tom Anderson (Past), Van Driessen (Present), Coach Buzzcut (Future)."
-  },
-  {
-    "title": "A Christmas Carol",
-    "yearText": "1995",
-    "yearSort": 1995,
-    "type": "Musical Theater / Broadway",
-    "category": "Music / Albums / Scores",
-    "description": "Cast Recording Album. Broadway musical presented annually at Madison Square Garden from 1994-2003. Features songs like 'A Place Called Home,' 'The Lights of Long Ago,' and 'Mr. Fezziwig's Annual Christmas Ball.' Cast included Walter Charles, Emily Skinner, and notable Scrooges over the years including F. Murray Abraham, Tim Curry, Tony Randall, Roddy McDowall, Frank Langella, Jim Dale, and Roger Daltrey."
-  },
-  {
-    "title": "A String Quartet Christmas",
-    "yearText": "1995",
-    "yearSort": 1995,
-    "type": "Classical / Chamber Music",
-    "category": "Music / Albums / Scores",
-    "description": "Recording (3 volumes). Steinway & Sons release. 3-volume set of Christmas classics tastefully arranged for string quartet. Recorded 1995-1998 in New York City at Church of the Holy Trinity and Riverside Church. 'First-class string quartet plays tasteful arrangements in refreshingly ungimmicky style.'"
   },
   {
     "title": "An Ex-Hooker's Christmas Carol",
@@ -2038,14 +1214,6 @@ const timelineData = [
     "type": "TV Sitcom Episode",
     "category": "TV Sitcoms",
     "description": "Frasier is excited as Frederick is coming to stay for the first time since his parents' divorce. The episode focuses on Frasier's desperate attempt to please his son with educational toys versus the action figure Frederick wants. While titled after the Grinch, Frasier learns lessons about Christmas through his relationships with his son and father. This is more Grinch-themed than a direct Christmas Carol adaptation."
-  },
-  {
-    "title": "Jacob Marley's Christmas Carol",
-    "yearText": "1995",
-    "yearSort": 1995,
-    "type": "Stage Drama / Musical Score",
-    "category": "Music / Albums / Scores",
-    "description": "Stage Play / Audiobook. One-man stage adaptation from 1995 novella. Musical score by Larry Shankar, sound by Robert Neuhaus. Played two seasons at Chicago's Goodman Theatre. Nominated for four Joseph Jefferson Awards. NPR broadcast for seven seasons. Mula plays dozen characters during Marley's journey to Hell and back."
   },
   {
     "title": "Quicksilver Radio Theater - A Christmas Carol",
@@ -2088,14 +1256,6 @@ const timelineData = [
     "description": "Animaniacs does their version of A Christmas Carol with Thaddeus Plotz in the Scrooge role, Ralph T. Guard as Bob Cratchit, Slappy as Jacob Marley, Wakko as the ghost of Christmas past, Dot as the ghost of Christmas present, and Yakko as the ghost of Christmas future."
   },
   {
-    "title": "Sonic's Christmas Carol",
-    "yearText": "1993",
-    "yearSort": 1993,
-    "type": "Archie Comics",
-    "category": "📚 Comics & Graphic Novels 42+",
-    "description": "Sonic plays all three ghosts to reform Dr. Robotnik!"
-  },
-  {
     "title": "\"Halloween IV\"",
     "yearText": "1992",
     "yearSort": 1992,
@@ -2118,22 +1278,6 @@ const timelineData = [
     "type": "Musical",
     "category": "🎬 Classic & Notable Films 33+",
     "description": "One of the most faithful and beloved adaptations. Human lead with Muppets."
-  },
-  {
-    "title": "The Muppet Christmas Carol",
-    "yearText": "1992",
-    "yearSort": 1992,
-    "type": "United States/United Kingdom Film (Musical)",
-    "category": "International",
-    "description": "First Muppet film following Jim Henson's death, dedicated to him and Richard Hunt. Michael Caine played Scrooge with complete dramatic sincerity. The Guardian declared it 'the greatest Christmas film ever made' in 2023 Cast: Michael Caine as Scrooge, Kermit the Frog as Bob Cratchit, Miss Piggy as Emily Cratchit, Gonzo as Charles Dickens (narrator), Rizzo the Rat, Fozzie Bear as Fozziwig"
-  },
-  {
-    "title": "The Muppet Christmas Carol",
-    "yearText": "1992",
-    "yearSort": 1992,
-    "type": "Musical Film",
-    "category": "🎬 Classic & Notable Film Adaptations",
-    "description": "Strong contender for most beloved adaptation. One of the most faithful to the source. First Muppet movie with human lead."
   },
   {
     "title": "The Muppet Christmas Carol (Original Motion Picture Soundtrack)",
@@ -2160,22 +1304,6 @@ const timelineData = [
     "description": "Audio Recording (2 CDs). Grammy Award Nominee for Best Spoken Word Album. Stewart's one-man show recording playing all parts using Dickens' own words. Originally recorded 1991 by Camm Lane, Inc., reissued by Simon & Schuster 2006. Praised by The Washington Post and Entertainment Weekly."
   },
   {
-    "title": "Bob Hope USO Christmas Shows",
-    "yearText": "1941-1991",
-    "yearSort": 1991,
-    "type": "military_uso",
-    "category": "Lost / Rare / Obscure",
-    "description": "Live Variety Shows (35 consecutive Christmas tours); SOME FILMED, MANY UNRECORDED; While Bob Hope's USO work is documented, many individual Christmas shows from 48 Christmases overseas were not professionally filmed. First show May 1941 at California's March Field, ended with Operation Desert Shield 1991.; Bob Hope spent 48 Christmases overseas with American service personnel. Not all shows documented. Inaugurated USO entertainment division with 1941 performance."
-  },
-  {
-    "title": "Patrick Stewart Audiobook",
-    "yearText": "1991",
-    "yearSort": 1991,
-    "type": "Spoken Word",
-    "category": "🎵 Music & Album Adaptations 68+",
-    "description": "Grammy-nominated solo performance from his legendary one-man show."
-  },
-  {
     "title": "Saved by the Bell – Home for Christmas (Parts 1 & 2)",
     "yearText": "1991",
     "yearSort": 1991,
@@ -2198,14 +1326,6 @@ const timelineData = [
     "type": "Radio Drama",
     "category": "Radio / Audio",
     "description": "BBC Radio; Radio Broadcast; Broadcast on 12-22-90; Cast: Michael Gough (Ebenezer Scrooge)"
-  },
-  {
-    "title": "Patrick Stewart Solo Performance",
-    "yearText": "1990s",
-    "yearSort": 1990,
-    "type": "Audiobook",
-    "category": "📻 Radio & Audio Dramas",
-    "description": "Grammy-nominated solo audiobook from Stewart's legendary one-man stage show. Performed over 200 times on stage."
   },
   {
     "title": "Quantum Leap – A Little Miracle",
@@ -2280,22 +1400,6 @@ const timelineData = [
     "description": "Modern comedy classic. Murray as cynical TV exec visited by ghosts."
   },
   {
-    "title": "Scrooged",
-    "yearText": "1988",
-    "yearSort": 1988,
-    "type": "United States Film (Comedy)",
-    "category": "International",
-    "description": "Modern retelling set in contemporary New York with Bill Murray as a cynical TV executive. Directed by Richard Donner. Loose adaptation where characters are familiar with Dickens' tale. IGN ranked it 11th-best holiday movie. Penguin called it 'Most creative modernisation' Cast: Bill Murray as Frank Cross, Karen Allen, John Forsythe, Bobcat Goldthwait, Carol Kane, Robert Mitchum, Alfre Woodard"
-  },
-  {
-    "title": "Scrooged",
-    "yearText": "1988",
-    "yearSort": 1988,
-    "type": "Comedy Film",
-    "category": "🎬 Classic & Notable Film Adaptations",
-    "description": "Modern comedy retelling. Murray plays Frank Cross, a cynical TV executive. Quintessential 1980s take on the classic."
-  },
-  {
     "title": "Scrooged – Feature Film",
     "yearText": "1988",
     "yearSort": 1988,
@@ -2328,36 +1432,12 @@ const timelineData = [
     "description": "African-American adaptation produced, directed by, and starring Robert Guillaume Cast: Robert Guillaume as John Grin"
   },
   {
-    "title": "John Grin's Christmas",
-    "yearText": "1986",
-    "yearSort": 1986,
-    "type": "independent_amateur",
-    "category": "Lost / Rare / Obscure",
-    "description": "Film; RARE; African-American adaptation produced, directed by, and starring Robert Guillaume. Limited theatrical distribution and availability.; Notable African-American adaptation with Guillaume in lead role.; Cast: Robert Guillaume as John Grin"
-  },
-  {
-    "title": "The Outsiders #5",
-    "yearText": "1986",
-    "yearSort": 1986,
-    "type": "Comic",
-    "category": "📚 Comics & Graphic Novels 42+",
-    "description": "Outsiders use A Christmas Carol to guilt mob accountant into turning evidence."
-  },
-  {
     "title": "Buckaneezer Scrooge",
     "yearText": "1985",
     "yearSort": 1985,
     "type": "Canada TV Special",
     "category": "International",
     "description": "Canadian adaptation featuring real-life Scrooge interacting with puppet characters Cast: Ron Barge as Buckaneezer Scrooge"
-  },
-  {
-    "title": "Buckaneezer Scrooge",
-    "yearText": "1985",
-    "yearSort": 1985,
-    "type": "puppet_marionette",
-    "category": "Lost / Rare / Obscure",
-    "description": "Television; OBSCURE; Canadian adaptation featuring real-life Scrooge interacting with puppet characters. Unique hybrid format. Limited distribution.; Mix of live-action and puppetry. Canadian production with limited circulation.; Cast: Ron Barge as Buckaneezer Scrooge"
   },
   {
     "title": "Films You Saw in School Collection",
@@ -2390,14 +1470,6 @@ const timelineData = [
     "type": "United Kingdom/United States TV Movie (CBS)",
     "category": "International",
     "description": "CBS/British co-production directed by Clive Donner (editor of the 1951 Scrooge film). Shot entirely on location in Shrewsbury, Shropshire. Drew over 12 million UK viewers. Scott received Emmy nomination. Considered by many as the definitive version Cast: George C. Scott as Scrooge, Frank Finlay as Marley, David Warner as Bob Cratchit, Susannah York as Mrs. Cratchit, Edward Woodward as Ghost of Christmas Present, Angela Pleasence as Ghost of Christmas Past, Roger Rees as Fred"
-  },
-  {
-    "title": "A Christmas Carol",
-    "yearText": "1984",
-    "yearSort": 1984,
-    "type": "TV Movie",
-    "category": "🎬 Classic & Notable Film Adaptations",
-    "description": "Highly regarded for George C. Scott's powerful performance. Frequently cited as one of the best adaptations ever made."
   },
   {
     "title": "A Christmas Carol (French Version)",
@@ -2438,22 +1510,6 @@ const timelineData = [
     "type": "United States Animated Short Film (Disney)",
     "category": "International",
     "description": "Disney animated short featuring classic Disney characters. Scrooge McDuck plays Ebenezer Scrooge, Mickey Mouse plays Bob Cratchit. Last time Clarence Nash voiced Donald Duck before his death in 1985 Cast: Alan Young as Scrooge McDuck, Wayne Allwine as Mickey Mouse/Bob Cratchit, Clarence Nash as Donald Duck/Fred, Hal Smith as Goofy/Marley"
-  },
-  {
-    "title": "Mickey's Christmas Carol",
-    "yearText": "1983",
-    "yearSort": 1983,
-    "type": "Theatrical",
-    "category": "🎨 Animated Adaptations",
-    "description": "Disney classic. Nominated for Academy Award. First time Alan Young voiced Scrooge McDuck in animation."
-  },
-  {
-    "title": "Mickey's Christmas Carol (Disney Parks Character Meet)",
-    "yearText": "1983",
-    "yearSort": 1983,
-    "type": "theme_park",
-    "category": "Lost / Rare / Obscure",
-    "description": "Theme Park Character Appearances; LIMITED DOCUMENTATION; 1983 characters appeared at Magic Kingdom dressed as Bob Cratchit (Mickey), Mrs. Cratchit (Minnie), Nephew Fred (Donald), and Ebenezer Scrooge (Scrooge McDuck). Unknown if filmed beyond amateur videos.; Tied to release of 'Mickey's Christmas Carol' film. Character appearances coordinated with movie."
   },
   {
     "title": "A Christmas Carol",
@@ -2512,44 +1568,12 @@ const timelineData = [
     "description": "Mr. Carlson eats one of Johnny's special brownies and falls asleep at the station. He has a Christmas Carol dream about being a Scrooge for not giving the radio staff a Christmas bonus. The episode reveals character backstories and serves as commentary on modern America."
   },
   {
-    "title": "A Christmas Carol (Opera)",
-    "yearText": "1979",
-    "yearSort": 1979,
-    "type": "Opera / Classical",
-    "category": "Music / Albums / Scores",
-    "description": "Opera Recording. Scottish composer Thea Musgrave composed opera commissioned by Virginia Opera Association with NEA support. World premiere December 16, 1979. Duration: 1 hour 50 minutes. Composer wrote her own libretto. Later performed at Royal Opera House and State Opera House Australia. 1982 Royal Opera House Covent Garden recording available."
-  },
-  {
     "title": "An American Christmas Carol",
     "yearText": "1979",
     "yearSort": 1979,
     "type": "United States/Canada TV Movie",
     "category": "International",
     "description": "American/Canadian co-production updating the story to Depression-era Concord, New Hampshire. Aired on ABC. Shot in Toronto with mostly Canadian actors. Rick Baker served as makeup consultant Cast: Henry Winkler as Benedict Slade, David Wayne as Merrivale, Chris Wiggins, R.H. Thomson as Thatcher, Dorian Harewood"
-  },
-  {
-    "title": "An American Christmas Carol",
-    "yearText": "1979",
-    "yearSort": 1979,
-    "type": "rare_early_television",
-    "category": "Lost / Rare / Obscure",
-    "description": "Television Movie; RELEASED BUT RARE; Updated to Depression Era America. American/Canadian co-production. Less well-known despite Henry Winkler's fame from Happy Days.; Depression-era setting. Notable for Henry Winkler in lead role during Happy Days popularity.; Cast: Henry Winkler, R.H. Thomson, David Wayne, Dorian Harewood, Chris Wiggins"
-  },
-  {
-    "title": "An American Christmas Carol",
-    "yearText": "1979",
-    "yearSort": 1979,
-    "type": "TV Film / Drama",
-    "category": "Music / Albums / Scores",
-    "description": "TV Movie. ABC TV movie December 16, 1979 starring Henry Winkler as Benedict Slade. Set in Depression-era Concord, New Hampshire. Music features 'We Three Kings' and other traditional carols. Rick Baker served as makeup consultant. Not a full musical but incorporates choral music."
-  },
-  {
-    "title": "An American Christmas Carol",
-    "yearText": "1979",
-    "yearSort": 1979,
-    "type": "TV Movie",
-    "category": "🎬 Classic & Notable Film Adaptations",
-    "description": "Set during Depression-era New Hampshire. Winkler's dramatic departure from his Fonzie role. 5 hours to apply aging makeup."
   },
   {
     "title": "Bugs Bunny's Christmas Carol",
@@ -2616,14 +1640,6 @@ const timelineData = [
     "description": "Fred is in a bad mood and short-tempered with his son Lamont. He says he doesn't have time or money for Christmas. Fred dreams himself into A Christmas Carol with Lamont playing all three Spirits of Christmas Past, Present, and Future. Fred sees his childhood, his treatment of others, and a future where he's alone and unloved."
   },
   {
-    "title": "The Energy Carol (NFB Canada)",
-    "yearText": "1975",
-    "yearSort": 1975,
-    "type": "PSA",
-    "category": "📢 Commercial Adaptations 24+",
-    "description": "11-minute PSA! \"Ebenezer Stooge\" CEO with motto \"to waste is to grow.\""
-  },
-  {
     "title": "A Christmas Tale",
     "yearText": "1973",
     "yearSort": 1973,
@@ -2638,22 +1654,6 @@ const timelineData = [
     "type": "Animated",
     "category": "🎬 Classic & Notable Films 33+",
     "description": "Won Academy Award for Best Animated Short. The ONLY Christmas Carol to win an Oscar."
-  },
-  {
-    "title": "A Christmas Carol",
-    "yearText": "1971",
-    "yearSort": 1971,
-    "type": "United Kingdom/United States Animated Short Film",
-    "category": "International",
-    "description": "Directed by Richard Williams with Chuck Jones as executive producer. Won the Academy Award for Best Animated Short Film in 1972 - the only Christmas Carol adaptation to win an Oscar. Bleak, shadowy visual style inspired by 19th-century engravings Cast: Alastair Sim as Scrooge (voice), Michael Hordern as Marley (voice), Michael Redgrave (narrator)"
-  },
-  {
-    "title": "A Christmas Carol",
-    "yearText": "1971",
-    "yearSort": 1971,
-    "type": "Animated",
-    "category": "🎬 Classic & Notable Film Adaptations",
-    "description": "Won Academy Award for Best Animated Short Film in 1972. The ONLY Christmas Carol adaptation to win an Oscar."
   },
   {
     "title": "A Christmas Carol (1969-71 Animated - Three Versions)",
@@ -2686,14 +1686,6 @@ const timelineData = [
     "type": "United Kingdom Film (Musical)",
     "category": "International",
     "description": "Musical film adaptation directed by Ronald Neame with songs by Leslie Bricusse. Albert Finney, only 34 at the time, played the elderly miser with extensive makeup. Received several Academy Award nominations Cast: Albert Finney as Scrooge, Alec Guinness, Edith Evans"
-  },
-  {
-    "title": "Scrooge",
-    "yearText": "1970",
-    "yearSort": 1970,
-    "type": "Musical Film",
-    "category": "🎬 Classic & Notable Film Adaptations",
-    "description": "British musical with songs by Leslie Bricusse. Finney won Golden Globe for Best Actor. 4 Academy Award nominations."
   },
   {
     "title": "Scrooge (1970) Soundtrack",
@@ -2744,22 +1736,6 @@ const timelineData = [
     "description": "Aired ONCE. Never released on home video. Cold War political adaptation."
   },
   {
-    "title": "Carol for Another Christmas",
-    "yearText": "1964",
-    "yearSort": 1964,
-    "type": "rare_early_television",
-    "category": "Lost / Rare / Obscure",
-    "description": "Television Movie; RARE - Only Aired Once, No Home Video Release; Modernization set during Cold War as plea for global cooperation/United Nations. Only shown once on broadcast TV. Right-wing John Birch Society launched protest campaign. Available only at Paley Center and UCLA Film Archive and rare bootlegs until TCM began annual broadcasts in 2012. Never released on home video/DVD.; First in planned series of TV specials to promote UN. Depressing ending influenced by JFK assassination and Vietnam War. Attained reputation as 'lost classic' of 60s television. Aired without commercial interruption.; Cast: Sterling Hayden, Peter Sellers (first performance after near-fatal heart attack), Eva Marie Saint, Robert Shaw, Ben Gazzara, James Shigeta, Pat Hingle, Percy Rodriguez, Steve Lawrence"
-  },
-  {
-    "title": "Carol for Another Christmas",
-    "yearText": "1964",
-    "yearSort": 1964,
-    "type": "TV Movie",
-    "category": "👻 Drama, Horror & Dark Adaptations",
-    "description": "Rod Serling's anti-nuclear war political adaptation. Sellers plays demagogue \"Imperial Me\" in Santa suit. Very controversial."
-  },
-  {
     "title": "Rod Serling's Carol for Another Christmas – TV Special",
     "yearText": "1964",
     "yearSort": 1964,
@@ -2768,36 +1744,12 @@ const timelineData = [
     "description": "Serling's international riff on A Christmas Carol dealing with American excess and the aftermath of nuclear war. Features bleakness and harrowing Hiroshima content with an anti-war message."
   },
   {
-    "title": "A Visit to Santa",
-    "yearText": "1963",
-    "yearSort": 1963,
-    "type": "educational_school",
-    "category": "Lost / Rare / Obscure",
-    "description": "Short Film; EXTREMELY OBSCURE; Extremely low-budget short where children visit Santa at North Pole (looks like prefab Lustron house) and get whisked away in 'magic helicopter' to parade in McKeesport, Pennsylvania.; Included in 'Strange and Unusual Christmas Films, Volume 2' DVD collection. Representative of ultra-low-budget holiday productions."
-  },
-  {
-    "title": "A Christmas Fantasy",
-    "yearText": "1962",
-    "yearSort": 1962,
-    "type": "educational_school",
-    "category": "Lost / Rare / Obscure",
-    "description": "Stop-Motion Animation Short; OBSCURE; More likely caused nightmares with creepy Santa Claus wearing horrific papier-mache mask.; Included in 'Strange and Unusual Christmas Films, Volume 2' DVD collection."
-  },
-  {
     "title": "Mister Magoo's Christmas Carol",
     "yearText": "1962",
     "yearSort": 1962,
     "type": "United States Animated TV Special",
     "category": "International",
     "description": "First animated Christmas special produced specifically for television, airing on NBC. Predated Rudolph, Charlie Brown Christmas, and The Grinch. Musical adaptation by United Productions of America (UPA) Cast: Jim Backus as Mr. Magoo/Scrooge, Jack Cassidy as Bob Cratchit, Royal Dano as Jacob Marley, Paul Frees (multiple characters)"
-  },
-  {
-    "title": "Mister Magoo's Christmas Carol",
-    "yearText": "1962",
-    "yearSort": 1962,
-    "type": "TV Special",
-    "category": "🎨 Animated Adaptations",
-    "description": "The FIRST animated Christmas special ever made for television. Broadway-style musical with songs by Jule Styne."
   },
   {
     "title": "Mr. Magoo's Christmas Carol",
@@ -2928,28 +1880,12 @@ const timelineData = [
     "description": "Italian adaptation of Dickens' A Christmas Carol Cast: Paolo Stoppa, Marcello Mastroianni"
   },
   {
-    "title": "It's Never Too Late",
-    "yearText": "1953",
-    "yearSort": 1953,
-    "type": "foreign_language",
-    "category": "Lost / Rare / Obscure",
-    "description": "Feature Film; RARE; Italian adaptation of Dickens novel. Limited international distribution. Features early Mastroianni performance.; Italian language production. Rare outside Italy.; Cast: Paolo Stoppa, Marcello Mastroianni"
-  },
-  {
     "title": "Lionel Barrymore Radio Adaptations",
     "yearText": "1934-1953",
     "yearSort": 1953,
     "type": "radio_drama",
     "category": "Lost / Rare / Obscure",
     "description": "Radio Drama (Multiple Productions); SOME SURVIVE, MANY LOST; Lionel Barrymore starred as Scrooge in dramatization on CBS Radio Network beginning December 25, 1934, repeating tradition on various network programs every Christmas through 1953. Most broadcasts not preserved.; Barrymore was originally to play Scrooge in 1938 film but wheelchair accident prevented it. 1940s adaptation issued as three-record set by Columbia Records.; Cast: Lionel Barrymore as Scrooge"
-  },
-  {
-    "title": "Lionel Barrymore's Scrooge",
-    "yearText": "1934-1953",
-    "yearSort": 1953,
-    "type": "Annual Radio",
-    "category": "📻 Radio & Audio Dramas",
-    "description": "Legendary 19-year annual tradition! Barrymore's definitive radio Scrooge across multiple networks. The voice of Christmas."
   },
   {
     "title": "A Christmas Carol (Kraft Television Theatre)",
@@ -3008,14 +1944,6 @@ const timelineData = [
     "description": "Widely regarded as the definitive film adaptation. Directed by Brian Desmond Hurst. New York Times critic A.O. Scott named it the best adaptation ever made. Alastair Sim's performance is considered iconic Cast: Alastair Sim as Scrooge, Mervyn Johns, Hermione Baddeley"
   },
   {
-    "title": "A Christmas Carol (British Television)",
-    "yearText": "1950",
-    "yearSort": 1950,
-    "type": "rare_early_television",
-    "category": "Lost / Rare / Obscure",
-    "description": "Live Television; LOST - No Recording Exists; Early British television adaptation. No known recording exists.; Part of early television era when recordings were not standard.; Cast: Bransby Williams as Scrooge"
-  },
-  {
     "title": "Christmas for Carol - Suspense",
     "yearText": "1950",
     "yearSort": 1950,
@@ -3064,22 +1992,6 @@ const timelineData = [
     "description": "Live Television; LOST - No Recording Exists; Part of prestigious anthology series. Live broadcast with no known surviving kinescope.; Part of The Philco Television Playhouse series.; Cast: Dennis King as Scrooge"
   },
   {
-    "title": "Classics Illustrated #53",
-    "yearText": "1948",
-    "yearSort": 1948,
-    "type": "Classic",
-    "category": "📚 Comics & Graphic Novels 42+",
-    "description": "The FIRST comic book interpretation of Dickens' classic. Collectible first printing."
-  },
-  {
-    "title": "Dickens' Christmas Carol (CBS)",
-    "yearText": "1948",
-    "yearSort": 1948,
-    "type": "rare_early_television",
-    "category": "Lost / Rare / Obscure",
-    "description": "Live Television; LOST - No Recording Exists; Performed by Baltimore children's group. Very little known about this version.; Almost no documentation survives about this production."
-  },
-  {
     "title": "Dickens' Christmas Carol (Rufus Rose Marionettes)",
     "yearText": "1948",
     "yearSort": 1948,
@@ -3110,14 +2022,6 @@ const timelineData = [
     "type": "rare_early_television",
     "category": "Lost / Rare / Obscure",
     "description": "Live Television Ballet; LOST - No Recording Exists; Unique ballet adaptation with original music by renowned composer. Broadcast live in era before recording was standard.; No footage known to survive. Lost alongside most other A Christmas Carol adaptations from 1930s-1950s."
-  },
-  {
-    "title": "Christmas Toyshop",
-    "yearText": "1945",
-    "yearSort": 1945,
-    "type": "educational_school",
-    "category": "Lost / Rare / Obscure",
-    "description": "Short Film; RARE; Release for home movie market combining live-action and animation. Castle Films releases were for 8mm/16mm home projectors, limiting preservation.; Included in 'Strange and Unusual Christmas Films, Volume 2' DVD collection."
   },
   {
     "title": "A Christmas Carol (DuMont Network)",
@@ -3208,14 +2112,6 @@ const timelineData = [
     "description": "MGM production featuring the entire Lockhart family (Gene, Kathleen, and their daughter June) - the only film in which all three appeared together. Reginald Owen replaced Lionel Barrymore who withdrew due to illness Cast: Reginald Owen as Scrooge, Gene Lockhart as Bob Cratchit, Kathleen Lockhart as Mrs. Cratchit, Terry Kilburn as Tiny Tim, Leo G. Carroll as Marley's Ghost, June Lockhart as Belinda Cratchit"
   },
   {
-    "title": "A Christmas Carol",
-    "yearText": "1938",
-    "yearSort": 1938,
-    "type": "MGM Theatrical",
-    "category": "🎬 Classic & Notable Film Adaptations",
-    "description": "MGM production with 100% rating on Rotten Tomatoes. Became a beloved classic aired on television for decades."
-  },
-  {
     "title": "A Christmas Carol - Mercury Theatre on the Air / Campbell Playhouse",
     "yearText": "1938",
     "yearSort": 1938,
@@ -3232,28 +2128,12 @@ const timelineData = [
     "description": "First feature-length sound film version of A Christmas Carol. Directed by Henry Edwards, who won a prize at the 1935 Venice Film Festival. Hicks reprised his famous stage role Cast: Seymour Hicks as Scrooge, Donald Calthrop as Bob Cratchit, Robert Cochran, Oscar Asche as Ghost of Christmas Present"
   },
   {
-    "title": "Scrooge",
-    "yearText": "1935",
-    "yearSort": 1935,
-    "type": "Theatrical",
-    "category": "🎬 Classic & Notable Film Adaptations",
-    "description": "First sound film of feature length. Director won a prize at the 1935 Venice Film Festival. Hicks played the role on stage since 1901."
-  },
-  {
     "title": "A Christmas Carol - CBS Radio Network",
     "yearText": "1934",
     "yearSort": 1934,
     "type": "Radio Drama",
     "category": "Radio / Audio",
     "description": "CBS Radio Network; Radio Broadcast; Beginning of Lionel Barrymore's annual tradition of playing Scrooge on radio for 19 years (1934-1953, missing only 1936 and 1938); Cast: Lionel Barrymore (Ebenezer Scrooge)"
-  },
-  {
-    "title": "1928 First Sound Version",
-    "yearText": "1928",
-    "yearSort": 1928,
-    "type": "Early Talkie",
-    "category": "🔍 Lost & Rare Versions 50+",
-    "description": "COMPLETELY LOST. First sound version ever made, no copies survive."
   },
   {
     "title": "Scrooge",
@@ -3376,30 +2256,6 @@ const timelineData = [
     "description": "The earliest surviving film adaptation. 6-minute British short preserved by BFI."
   },
   {
-    "title": "Scrooge, or, Marley's Ghost",
-    "yearText": "1901",
-    "yearSort": 1901,
-    "type": "United Kingdom Film (Silent)",
-    "category": "International",
-    "description": "First known film adaptation of A Christmas Carol"
-  },
-  {
-    "title": "Scrooge, or, Marley's Ghost",
-    "yearText": "1901",
-    "yearSort": 1901,
-    "type": "lost_silent_films",
-    "category": "Lost / Rare / Obscure",
-    "description": "Silent Film; PARTIALLY LOST; First ever film adaptation of A Christmas Carol. Only about half the film survives. Filmed on highly flammable cellulose nitrate stock that degraded over time.; Surviving footage includes scene where Scrooge is shown his own grave. Film was shown to King Edward VII and Queen Alexandra at Sandringham House in December 1901. Features impressive trick effects including Marley's face superimposed over door knocker.; Cast: Daniel Smith as Scrooge"
-  },
-  {
-    "title": "Scrooge, or, Marley's Ghost",
-    "yearText": "1901",
-    "yearSort": 1901,
-    "type": "Silent Film",
-    "category": "🎬 Classic & Notable Film Adaptations",
-    "description": "The earliest surviving film adaptation of A Christmas Carol. A 6-minute British short preserved by the British Film Institute."
-  },
-  {
     "title": "Christmas Past - Vintage Holiday Films (Edison Studios Collection)",
     "yearText": "Early 1900s",
     "yearSort": 1900,
@@ -3422,38 +2278,6 @@ const timelineData = [
     "type": "foreign_language",
     "category": "Lost / Rare / Obscure",
     "description": "Published Book/Possible Stage Adaptations; BOOK SURVIVES - Stage Productions Unknown; Earliest Russian translation (abridged, 36 pages). Features Russianized names 'Skrudzh' for Scrooge and 'Timosha' for Tiny Tim. Any filmed or stage adaptations from this era would be lost.; Held at University Library Cambridge. Published in Moscow 1887."
-  },
-  {
-    "title": "Vancouver Carol Ship Dinner Cruises",
-    "yearText": "40+ year tradition",
-    "yearSort": 40,
-    "type": "cruise_ship",
-    "category": "Lost / Rare / Obscure",
-    "description": "Annual Dinner Cruises with Live Carols; ONGOING TRADITION; For 40 years, hosted beloved dinner cruises with delicious meal, live carol performances, DJ-hosted music. Unknown if any performances professionally filmed beyond amateur videos.; Annual tradition creating lasting family memories. Live carol performances but not theatrical adaptation."
-  },
-  {
-    "title": "Immersive Dining Experience",
-    "yearText": "9+ years",
-    "yearSort": 9,
-    "type": "London",
-    "category": "🎭 Stage Theater Productions 100+",
-    "description": "Two-course meal with performance, parlour games. Dinner with literature's stingiest host!"
-  },
-  {
-    "title": "Christmas Carol: The Remix",
-    "yearText": "7-year run",
-    "yearSort": 7,
-    "type": "Hip Hop",
-    "category": "🎵 Music & Album Adaptations 68+",
-    "description": "Chicago's hip-hop adaptation ran 7 years! Reimagines Dickens with beats."
-  },
-  {
-    "title": "SWISS Christmas Carol Surprise (Nice to Zurich)",
-    "yearText": "December 2",
-    "yearSort": 2,
-    "type": "airline_inflight",
-    "category": "Lost / Rare / Obscure",
-    "description": "Airport Performance; ONE-TIME EVENT; Group of Christmas carol singers waiting for passengers from Nice flight at baggage claim. Surprise performance for passengers. Unknown if filmed beyond amateur videos.; Part of SWISS Christmas surprises campaign. Spontaneous performance for arriving passengers."
   },
   {
     "title": "A Christmas Carol - Anne-Marie Duff BBC",
@@ -3502,22 +2326,6 @@ const timelineData = [
     "type": "Audiobook",
     "category": "Radio / Audio",
     "description": "Various; Audiobook; Audiobook narration; Cast: Steve Cook (Narrator)"
-  },
-  {
-    "title": "A Christmas Carol Audio-Animatronics Show (Epcot UK Pavilion - UNBUILT)",
-    "yearText": "Never Built",
-    "yearSort": 0,
-    "type": "theme_park",
-    "category": "Lost / Rare / Obscure",
-    "description": "Audio-Animatronics Attraction; NEVER REALIZED; Planned state-of-the-art audio-animatronics show telling A Christmas Carol story for UK Pavilion but never built.; Concept for Epcot attraction that was never realized. Would have been permanent installation."
-  },
-  {
-    "title": "Bill Belichick Sings Carol",
-    "yearText": "Fan-made",
-    "yearSort": 0,
-    "type": "Parody",
-    "category": "🏈 Sports & Wrestling 15+",
-    "description": "Press conference clips spliced to make Belichick \"sing\" Merry Little Christmas!"
   },
   {
     "title": "Boy Meets World – A Very Topanga Christmas",
@@ -3598,14 +2406,6 @@ const timelineData = [
     "type": "independent_amateur",
     "category": "Lost / Rare / Obscure",
     "description": "Film; RELEASED - Limited Distribution; Modern variation retold from gay perspective. Described as having 'heart, comedy & music.' Limited theatrical distribution.; Modern LGBTQ+ adaptation of classic story. Independent production with limited commercial reach."
-  },
-  {
-    "title": "The Christmas Carol - A Special Request (Church Drama)",
-    "yearText": "Unknown",
-    "yearSort": 0,
-    "type": "church_religious",
-    "category": "Lost / Rare / Obscure",
-    "description": "Church Play Script; SCRIPT AVAILABLE - Productions Unknown; Church play where Jim and Nancy Marley and three kids make special request, starting journey with Gabriel, Angel of Christmas Past, and other angels. Countless local church productions likely never filmed.; Available as script from Eldridge Christian Plays. Tells classic story adapted for church setting."
   },
   {
     "title": "The Flintstones – A Flintstones Christmas Carol",
