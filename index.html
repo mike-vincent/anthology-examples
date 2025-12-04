@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Christmas Carol – Timeline View</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: "IBM Plex Mono", "Courier New", monospace;
+            background: #fdfdfd;
+            color: #1b1b1b;
+            min-height: 100vh;
+            padding: 30px 14px 60px;
+        }
+        header {
+            max-width: 1100px;
+            margin: 0 auto 24px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2.2em;
+            letter-spacing: 0.2px;
+            color: #111;
+        }
+        .subtitle { opacity: 0.8; margin-top: 6px; font-size: 0.95em; color: #333; }
+        .controls {
+            max-width: 1100px;
+            margin: 0 auto 20px;
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        .search {
+            flex: 1 1 360px;
+            min-width: 260px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: #fff;
+            border: 1px solid #dcdcdc;
+            border-radius: 6px;
+            padding: 8px 10px;
+        }
+        .search input {
+            width: 100%;
+            border: none;
+            background: transparent;
+            color: #111;
+            font-size: 1em;
+            outline: none;
+        }
+        .pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: #fff;
+            color: #222;
+            border: 1px solid #dcdcdc;
+            padding: 8px 12px;
+            border-radius: 6px;
+            font-size: 0.9em;
+        }
+        .pill strong { color: #111; }
+        .timeline {
+            max-width: 1100px;
+            margin: 0 auto;
+            position: relative;
+        }
+        .timeline::before {
+            content: "";
+            position: absolute;
+            left: 82px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #ececec;
+            opacity: 0.7;
+        }
+        .row {
+            display: grid;
+            grid-template-columns: 100px 1fr;
+            gap: 12px;
+            align-items: center;
+            padding: 6px 0;
+        }
+        .year {
+            text-align: right;
+            padding-right: 18px;
+            font-weight: 700;
+            color: #111;
+            position: relative;
+        }
+        .year::after {
+            content: "";
+            position: absolute;
+            right: -10px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 8px;
+            height: 8px;
+            background: #111;
+            border-radius: 50%;
+        }
+        .year.repeat { color: #888; }
+        .detail {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: transparent;
+            border: 0;
+            border-left: 2px solid #111;
+            padding: 6px 0 6px 12px;
+            border-radius: 0;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            transition: transform 0.2s;
+        }
+        .detail:hover { transform: translateX(2px); }
+        .title {
+            font-weight: 700;
+            color: #000;
+            text-decoration: none;
+        }
+        .title:hover {
+            text-decoration: underline;
+            color: #0066cc;
+        }
+        .meta {
+            color: #333;
+            font-size: 0.95em;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 8px;
+            border: 1px solid #111;
+            border-radius: 4px;
+            font-size: 0.78em;
+            color: #000;
+            background: #fff;
+            white-space: nowrap;
+        }
+        .description {
+            color: #444;
+            opacity: 0.9;
+        }
+        .empty {
+            text-align: center;
+            margin-top: 30px;
+            opacity: 0.75;
+        }
+        @media (max-width: 720px) {
+            body { padding: 20px 10px 40px; }
+            .row {
+                grid-template-columns: 80px 1fr;
+            }
+            .timeline::before {
+                left: 64px;
+            }
+            .year { padding-right: 12px; font-size: 0.95em; }
+            .detail { font-size: 0.95em; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>A Christmas Carol – Timeline</h1>
+        <p class="subtitle">Descending chronology. One line per adaptation. Hover for details.</p>
+    </header>
+
+    <div class="controls">
+        <div class="search">
+            <span>🔍</span>
+            <input id="searchInput" type="text" placeholder="Search title, year, category, or keyword…">
+        </div>
+        <div class="pill"><strong id="count">70</strong> items</div>
+        <div class="pill">Sort: Descending timeline</div>
+    </div>
+
+    <div id="timeline" class="timeline"></div>
+
+    <script src="timeline_data.js"></script>
+    <script>
+        const timelineEl = document.getElementById('timeline');
+        const countEl = document.getElementById('count');
+        const searchEl = document.getElementById('searchInput');
+
+        function renderTimeline(filterTerm = "") {
+            if (typeof timelineData === 'undefined') {
+                timelineEl.innerHTML = '<div class="empty">Data file missing. Place timeline_data.js next to this HTML.</div>';
+                return;
+            }
+
+            const term = filterTerm.trim().toLowerCase();
+            timelineEl.innerHTML = "";
+            const filtered = timelineData
+                .filter(item => {
+                    if (!term) return true;
+                    const blob = [item.title, item.yearText, item.type, item.category, item.description].join(" ").toLowerCase();
+                    return blob.includes(term);
+                })
+                .sort((a, b) => b.yearSort - a.yearSort || b.title.localeCompare(a.title));
+
+            countEl.textContent = filtered.length;
+            if (!filtered.length) {
+                timelineEl.innerHTML = '<div class="empty">No matches. Try another keyword.</div>';
+                return;
+            }
+
+            let lastYearLabel = "";
+            filtered.forEach(item => {
+                const yearLabel = item.yearText || "—";
+
+                const row = document.createElement('div');
+                row.className = 'row';
+
+                const year = document.createElement('div');
+                year.className = 'year';
+                year.textContent = yearLabel;
+                if (yearLabel === lastYearLabel) year.classList.add('repeat');
+
+                const detail = document.createElement('div');
+                detail.className = 'detail';
+                detail.title = item.description || item.title;
+
+                const title = document.createElement('a');
+                title.className = 'title';
+                title.textContent = item.title;
+                title.href = 'https://www.imdb.com/find/?q=' + encodeURIComponent(item.title + ' ' + (item.yearText || ''));
+                title.target = '_blank';
+                title.rel = 'noopener';
+
+                const category = document.createElement('span');
+                category.className = 'badge';
+                category.textContent = item.category;
+
+                const meta = document.createElement('span');
+                meta.className = 'badge';
+                meta.textContent = item.type || "";
+
+                const description = document.createElement('span');
+                description.className = 'description';
+                description.textContent = item.description ? ` — ${item.description}` : "";
+
+                detail.append(title, category, meta, description);
+                row.append(year, detail);
+                timelineEl.appendChild(row);
+                lastYearLabel = yearLabel;
+            });
+        }
+
+        renderTimeline();
+        searchEl.addEventListener('input', (e) => renderTimeline(e.target.value));
+    </script>
+</body>
+</html>
